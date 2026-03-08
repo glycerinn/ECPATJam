@@ -5,6 +5,5 @@ public class MaterialSO : ScriptableObject
 {
     public new string name;
     public Vector3 MaterialStartPos;
-    public int Value;
     public Sprite MaterialSprite;
 }
