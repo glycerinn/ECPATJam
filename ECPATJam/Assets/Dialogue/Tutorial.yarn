@@ -1,0 +1,18 @@
+﻿title: Intro
+position: 65,-136
+---
+Narrator: This is your first day outside the prison, that dingy little building that has been your ‘home’ for the last fifteen years. It is a strange sensation to see the sun without those tall concrete walls. 
+Narrator: A lot has changed in this town since you served your sentence. That old pizza place you used to visit was demolished, standing in its place is now some currency exchange service. 
+Narrator: Your community work is going to start soon. You don’t feel like you’re ready yet.
+<<jump FirstPart>>
+===
+title: FirstPart
+position: -84,39
+---
+<<declare $playerName = "Player">>
+Narrator: A woman maybe around her twenties to early thirties enters the room. She has a nasty scar on her left eye.
+Officer: Mornin’, {$playerName}. I’m Officer Sarah Blakesley, your supervisor. 
+Narrator: You expected her to extend her hand to you, but instead they were kept perfectly positioned behind her back. 
+You: Good morning - Ma’am. 
+Officer: Right then, I believe you know what to do to ‘elp out good folks in need? 
+===

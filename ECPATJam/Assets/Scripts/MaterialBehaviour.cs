@@ -61,15 +61,8 @@ public class MaterialBehaviour : MonoBehaviour
         transform.position = GetMousePos();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public MaterialSO GetMaterial()
     {
-        if (collision.CompareTag("Pot"))
-        {
-            PotBehaviour pot = collision.GetComponent<PotBehaviour>();
-            if(pot != null)
-            {
-                
-            }
-        }
+        return materialSO;
     }
 }

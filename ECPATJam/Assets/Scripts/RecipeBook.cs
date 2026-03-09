@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class RecipeBook : MonoBehaviour
 {
-    private List<RecipeSO> recipes;
+    public List<RecipeSO> recipes;
 
-    public string CheckMaterials(List<MaterialSO> inPotMaterials)
+    public RecipeSO CheckMaterials(List<MaterialSO> inPotMaterials)
     {
         foreach(RecipeSO recipe in recipes)
         {
             if(MatchRecipe(inPotMaterials, recipe.materials))
             {
-                return recipe.ResultRecipe;
+                Debug.Log("Recipe Found: " + recipe.ResultRecipe);
+                return recipe;
             }
         }
 
-        return "Slop";
+        return null;
     }
 
     bool MatchRecipe(List<MaterialSO> inPot, List<MaterialSO> recipes)
@@ -24,33 +25,14 @@ public class RecipeBook : MonoBehaviour
         if(inPot.Count != recipes.Count)
             return false;
             
-        List<MaterialSO> inPotSorted = new List<MaterialSO>(inPot);
-        List<MaterialSO> recipeSorted = new List<MaterialSO>(recipes);
-
-        inPotSorted.Sort((a, b) => a.name.CompareTo(b.name));
-        recipeSorted.Sort((a, b) => a.name.CompareTo(b.name));
-
-        for(int i = 0; i < inPotSorted.Count; i++)
+        foreach (MaterialSO ingredient in recipes)
         {
-            if(inPotSorted != recipeSorted)
-            {
+            if (!inPot.Contains(ingredient))
                 return false;
-            }
         }
 
         return true;
         
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
