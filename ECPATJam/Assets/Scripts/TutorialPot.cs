@@ -1,9 +1,9 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
-public class PotBehaviour : MonoBehaviour
+public class TutorialPot : MonoBehaviour
 {
+    public TutorialManager tutorialManager;
     public List<MaterialSO> materials = new List<MaterialSO>();
     public List<MaterialBehaviour> materialsInPot = new List<MaterialBehaviour>();
     public RecipeBook recipeBook;
@@ -11,6 +11,7 @@ public class PotBehaviour : MonoBehaviour
 
     public void AddMaterial(MaterialBehaviour material)
     {
+        tutorialManager.IngredientAdded();
         materials.Add(material.GetMaterial());
         materialsInPot.Add(material);
         Debug.Log("Added: " + material.GetMaterial());
@@ -34,7 +35,7 @@ public class PotBehaviour : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         MaterialBehaviour material = collision.GetComponent<MaterialBehaviour>();
-
+        
         if(material != null)
         {
             AddMaterial(material);
