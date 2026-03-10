@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0580094e29fb5ff4496064431037c4af, type: 3}
-  m_Name: Herb3
+  m_Name: Ginger
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
-  name: Lengkuas
-  MaterialStartPos: {x: 8, y: 0, z: 0}
-  Value: 3
-  MaterialSprite: {fileID: 6520104451217058757, guid: 930642e9bbafcce4f878b2c5f0fc03b3, type: 3}
+  name: Ginger
+  MaterialStartPos: {x: 5.5, y: -0.39, z: 0}
+  MaterialSprite: {fileID: -6547530143658692221, guid: 2e8519899540e1743867841d27e02047, type: 3}

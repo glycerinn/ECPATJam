@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff1569e3d6989438bcabb6d2ea1f27, type: 3}
+  m_Name: Kunyit Sereh
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
+  ResultRecipe: Kunyit Sereh
+  materials:
+  - {fileID: 11400000, guid: 1fef5df717bdc0346ba503aac4425400, type: 2}
+  - {fileID: 11400000, guid: f7daa1094e18dad4196fec5f777a3b2b, type: 2}
+  RecipeSprite: {fileID: 3545901028537396257, guid: effa4f1938c80814f9adcb1e5b7c5b2a, type: 3}

@@ -5,6 +5,7 @@ using UnityEngine;
 public class RecipeBook : MonoBehaviour
 {
     public List<RecipeSO> recipes;
+    public GameObject RecipePages;
 
     public RecipeSO CheckMaterials(List<MaterialSO> inPotMaterials)
     {
@@ -32,7 +33,11 @@ public class RecipeBook : MonoBehaviour
         }
 
         return true;
-        
+    }
+
+    public void ShowRecipes()
+    {
+        RecipePages.SetActive(true);
     }
 
 }

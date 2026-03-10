@@ -4,13 +4,15 @@ using UnityEngine;
 public class PotBehaviour : MonoBehaviour
 {
     public List<MaterialSO> materials = new List<MaterialSO>();
+    public List<MaterialBehaviour> materialsInPot = new List<MaterialBehaviour>();
     public RecipeBook recipeBook;
     public RecipeBehaviour recipeBehaviour;
 
-    public void AddMaterial(MaterialSO materialname)
+    public void AddMaterial(MaterialBehaviour material)
     {
-        materials.Add(materialname);
-        Debug.Log("Added: " + materialname.name);
+        materials.Add(material.GetMaterial());
+        materialsInPot.Add(material);
+        Debug.Log("Added: " + material.GetMaterial());
     }
 
     public void CookMaterial()
@@ -19,7 +21,13 @@ public class PotBehaviour : MonoBehaviour
 
         recipeBehaviour.ShowDish(recipe);
 
+        foreach(MaterialBehaviour materialBehaviour in materialsInPot)
+        {
+            materialBehaviour.ResetPosition();
+        }
+
         materials.Clear();
+        materialsInPot.Clear();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -28,7 +36,7 @@ public class PotBehaviour : MonoBehaviour
 
         if(material != null)
         {
-            AddMaterial(material.GetMaterial());
+            AddMaterial(material);
             collision.gameObject.SetActive(false);
         }
     }

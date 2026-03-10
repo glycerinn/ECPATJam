@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0580094e29fb5ff4496064431037c4af, type: 3}
+  m_Name: Tamarind
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
+  name: Tamarind
+  MaterialStartPos: {x: 5.5, y: 1.61, z: 0}
+  MaterialSprite: {fileID: 6919547147693376681, guid: f0adc28f0acdb02458ee811aeaf42e3b, type: 3}

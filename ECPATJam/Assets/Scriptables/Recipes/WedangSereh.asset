@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3ff1569e3d6989438bcabb6d2ea1f27, type: 3}
-  m_Name: Recipe1
+  m_Name: WedangSereh
   m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
-  ResultRecipe: Recipe1
+  ResultRecipe: WedangSereh
   materials:
-  - {fileID: 11400000, guid: f7daa1094e18dad4196fec5f777a3b2b, type: 2}
-  - {fileID: 11400000, guid: ac022b9cbc865d8408d69ceb48a9bbc4, type: 2}
-  RecipeSprite: {fileID: -8948479070464053322, guid: 88ded2009dfddf5439aee8043e63d09d, type: 3}
+  - {fileID: 11400000, guid: 1fef5df717bdc0346ba503aac4425400, type: 2}
+  - {fileID: 11400000, guid: 925ca98016db09f44979a2fa6723f48e, type: 2}
+  RecipeSprite: {fileID: -3800119603498562759, guid: 71cb8b273b7603c4cbeb0b247bf03eb2, type: 3}

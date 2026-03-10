@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 6ef535fbedb18de4caea5c5e3abc0e54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4630937952541920026
+    second: Nasi Kunyit_0
+  - first:
+      213: 6691258336829904135
+    second: Nasi Kunyit_1
+  - first:
+      213: -4858127125720786142
+    second: Nasi Kunyit_2
+  - first:
+      213: -8943305272855958752
+    second: Nasi Kunyit_3
+  - first:
+      213: -2980150645313208670
+    second: Nasi Kunyit_4
+  - first:
+      213: 934328450507332584
+    second: Nasi Kunyit_5
+  - first:
+      213: 1807630994470992758
+    second: Nasi Kunyit_6
+  - first:
+      213: -1645125197342392475
+    second: Nasi Kunyit_7
+  - first:
+      213: -2886210926565166842
+    second: Nasi Kunyit_8
+  - first:
+      213: 5656813721573220946
+    second: Nasi Kunyit_9
+  - first:
+      213: -4353162752713477902
+    second: Nasi Kunyit_10
+  - first:
+      213: 1349333688670257122
+    second: Nasi Kunyit_11
+  - first:
+      213: -23373339798150139
+    second: Nasi Kunyit_12
+  - first:
+      213: 2973222765527253773
+    second: Nasi Kunyit_13
+  - first:
+      213: -4019131568928825933
+    second: Nasi Kunyit_14
+  - first:
+      213: 7172585939310213544
+    second: Nasi Kunyit_15
+  - first:
+      213: 8295184176704344413
+    second: Nasi Kunyit_16
+  - first:
+      213: -4617245214431499087
+    second: Nasi Kunyit_17
+  - first:
+      213: 1799457530578920083
+    second: Nasi Kunyit_18
+  - first:
+      213: -5640231909036860161
+    second: Nasi Kunyit_19
+  - first:
+      213: 651934673031217473
+    second: Nasi Kunyit_20
+  - first:
+      213: -7268645411613198981
+    second: Nasi Kunyit_21
+  - first:
+      213: 5880786489231907999
+    second: Nasi Kunyit_22
+  - first:
+      213: 861825058358723123
+    second: Nasi Kunyit_23
+  - first:
+      213: -6280693166452203466
+    second: Nasi Kunyit_24
+  - first:
+      213: -2555399348286372234
+    second: Nasi Kunyit_25
+  - first:
+      213: -3136204967138511226
+    second: Nasi Kunyit_26
+  - first:
+      213: 418009295644547636
+    second: Nasi Kunyit_27
+  - first:
+      213: 1415429593012929962
+    second: Nasi Kunyit_28
+  - first:
+      213: -8450981216417541926
+    second: Nasi Kunyit_29
+  - first:
+      213: 2974225731344047151
+    second: Nasi Kunyit_30
+  - first:
+      213: -7528965433388974510
+    second: Nasi Kunyit_31
+  - first:
+      213: 3060325077264534036
+    second: Nasi Kunyit_32
+  - first:
+      213: -3296885630984351470
+    second: Nasi Kunyit_33
+  - first:
+      213: -4380743775474667815
+    second: Nasi Kunyit_34
+  - first:
+      213: -589323005249096798
+    second: Nasi Kunyit_35
+  - first:
+      213: 5157691594112484089
+    second: Nasi Kunyit_36
+  - first:
+      213: -6752469834286270075
+    second: Nasi Kunyit_37
+  - first:
+      213: 4739807961802481401
+    second: Nasi Kunyit_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nasi Kunyit_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 2500
+        height: 2126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad01fefdb5518ba80800000000000000
+      internalID: -8450981216417541926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c7d396fdcf40574dae25deb841bbbfa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nasi Kunyit_0: 4630937952541920026
+      Nasi Kunyit_1: 6691258336829904135
+      Nasi Kunyit_10: -4353162752713477902
+      Nasi Kunyit_11: 1349333688670257122
+      Nasi Kunyit_12: -23373339798150139
+      Nasi Kunyit_13: 2973222765527253773
+      Nasi Kunyit_14: -4019131568928825933
+      Nasi Kunyit_15: 7172585939310213544
+      Nasi Kunyit_16: 8295184176704344413
+      Nasi Kunyit_17: -4617245214431499087
+      Nasi Kunyit_18: 1799457530578920083
+      Nasi Kunyit_19: -5640231909036860161
+      Nasi Kunyit_2: -4858127125720786142
+      Nasi Kunyit_20: 651934673031217473
+      Nasi Kunyit_21: -7268645411613198981
+      Nasi Kunyit_22: 5880786489231907999
+      Nasi Kunyit_23: 861825058358723123
+      Nasi Kunyit_24: -6280693166452203466
+      Nasi Kunyit_25: -2555399348286372234
+      Nasi Kunyit_26: -3136204967138511226
+      Nasi Kunyit_27: 418009295644547636
+      Nasi Kunyit_28: 1415429593012929962
+      Nasi Kunyit_29: -8450981216417541926
+      Nasi Kunyit_3: -8943305272855958752
+      Nasi Kunyit_30: 2974225731344047151
+      Nasi Kunyit_31: -7528965433388974510
+      Nasi Kunyit_32: 3060325077264534036
+      Nasi Kunyit_33: -3296885630984351470
+      Nasi Kunyit_34: -4380743775474667815
+      Nasi Kunyit_35: -589323005249096798
+      Nasi Kunyit_36: 5157691594112484089
+      Nasi Kunyit_37: -6752469834286270075
+      Nasi Kunyit_38: 4739807961802481401
+      Nasi Kunyit_4: -2980150645313208670
+      Nasi Kunyit_5: 934328450507332584
+      Nasi Kunyit_6: 1807630994470992758
+      Nasi Kunyit_7: -1645125197342392475
+      Nasi Kunyit_8: -2886210926565166842
+      Nasi Kunyit_9: 5656813721573220946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

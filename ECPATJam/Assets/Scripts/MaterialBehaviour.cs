@@ -65,4 +65,16 @@ public class MaterialBehaviour : MonoBehaviour
     {
         return materialSO;
     }
+
+    public void ResetPosition()
+    {
+        transform.position = StartPos;
+        HasBeenClicked = false;
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        rb.gravityScale = 0;
+
+        gameObject.SetActive(true);
+    }
 }
