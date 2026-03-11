@@ -1,0 +1,13 @@
+﻿title: Tiger
+---
+Narrator: A broad tiger man walked into the room, his eyes darting everywhere like he’s lost. Unsure if he’d even entered the right building. He looks at you, anticipating you to say something- say something goddamnit!
+-> Hi, uh. What can I get for you?
+ST: Umm, excuse me..?
+ST: ..Achoo! umm, I've got a really terrible cold today. Do you have something to help with it, perhaps something that could boost my immunity to fight my cold?
+-> Sure, please wait for a while.
+<<wait_for_order>>
+ST: Th-thank you, you’re a life saviour.
+<<customer_leave>>
+Narrator: Customer left the counter
+-> Hm.. I think I can get used to this.
+===

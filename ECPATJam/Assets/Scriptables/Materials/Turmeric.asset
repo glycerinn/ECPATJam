@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Turmeric
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: Turmeric
-  MaterialStartPos: {x: 3.5, y: -0.39, z: 0}
+  MaterialStartPos: {x: 2.77, y: -0.67999995, z: 0}
   MaterialSprite: {fileID: -3264793299348671512, guid: 21610068300a1694ea7bca32f0309e0e, type: 3}

@@ -7,6 +7,7 @@ public class MainMenuManager : MonoBehaviour
     // public GameObject Credits;
     // public LevelLoader levelLoader;
     // private AudioManager audioManager;
+    private int sceneToContinue;
 
 
     public void Awake()
@@ -22,7 +23,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("TutorialScene");
         // audioManager.playButtonSFX();
         // StartCoroutine(levelLoader.PlayTransition());
     }
@@ -43,5 +44,19 @@ public class MainMenuManager : MonoBehaviour
     {
         // audioManager.playButtonSFX();
         Application.Quit();
+    }
+
+    public void ContinueButton()
+    {
+        sceneToContinue = PlayerPrefs.GetInt("SavedScene");
+        if(sceneToContinue != 0)
+        {
+            SceneManager.LoadScene(sceneToContinue);
+        }
+        else
+        {
+            return;
+        }
+
     }
 }

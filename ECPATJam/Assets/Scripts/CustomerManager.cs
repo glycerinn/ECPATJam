@@ -1,0 +1,76 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Yarn.Unity;
+
+public class CustomerManager : MonoBehaviour
+{
+    public List<CustomerSO> customers;
+
+    public GameObject customerPrefab;
+
+    public Transform spawnPoint;
+    public Transform counterPoint;
+    public Transform exitPoint;
+
+    public DialogueRunner dialogueRunner;
+    TaskCompletionSource<bool> orderWait;
+    public RecipeSO currentOrder;
+
+    void Start()
+    {
+        dialogueRunner.AddCommandHandler("wait_for_order", WaitForOrder);
+        dialogueRunner.AddCommandHandler("customer_leave", CustomerLeave);
+    }
+
+    public async YarnTask WaitForOrder()
+    {
+        orderWait = new TaskCompletionSource<bool>();
+
+        await orderWait.Task;
+    }
+
+    CustomerBehaviour currentCustomer;
+
+    public void CustomerLeave()
+    {
+        StartCoroutine(CustomerLeaveRoutine());
+    }
+
+    IEnumerator CustomerLeaveRoutine()
+    {
+        yield return currentCustomer.MoveTo(exitPoint.position);
+
+        Destroy(currentCustomer.gameObject);
+    }
+
+    public void OrderServed()
+    {
+        orderWait?.SetResult(true);
+    }
+
+    public IEnumerator StartDay()
+    {
+        foreach (CustomerSO customer in customers)
+        {
+            yield return SpawnCustomer(customer);
+        }
+
+        Debug.Log("Day complete");
+    }
+
+    IEnumerator SpawnCustomer(CustomerSO data)
+    {
+        GameObject obj = Instantiate(customerPrefab, spawnPoint.position, Quaternion.identity);
+
+        currentCustomer = obj.GetComponent<CustomerBehaviour>();
+        currentCustomer.Initialize(data);
+
+        yield return currentCustomer.MoveTo(counterPoint.position);
+
+        currentOrder = currentCustomer.GetOrder();
+
+        dialogueRunner.StartDialogue(data.yarnNode);
+    }
+}

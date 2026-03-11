@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: c6beeef25d42fa446816e7b6c87cfa10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2378231146707990009
+    second: Pot_Front_0
+  - first:
+      213: 5043210586734547491
+    second: Pot_Front_1
+  - first:
+      213: 1339985151156434332
+    second: Pot_Front_2
+  - first:
+      213: -6467018849944934892
+    second: Pot_Front_3
+  - first:
+      213: 3090007780516862575
+    second: Pot_Front_4
+  - first:
+      213: 6092725284280352769
+    second: Pot_Front_5
+  - first:
+      213: 130831627974327808
+    second: Pot_Front_6
+  - first:
+      213: 3017463533488010428
+    second: Pot_Front_7
+  - first:
+      213: -4762708016889432269
+    second: Pot_Front_8
+  - first:
+      213: -3737700068548540711
+    second: Pot_Front_9
+  - first:
+      213: -2545220175683553302
+    second: Pot_Front_10
+  - first:
+      213: 4332763520707673520
+    second: Pot_Front_11
+  - first:
+      213: -8937178181449004708
+    second: Pot_Front_12
+  - first:
+      213: 526273652855835488
+    second: Pot_Front_13
+  - first:
+      213: 8220276468882154411
+    second: Pot_Front_14
+  - first:
+      213: -4054631658596139356
+    second: Pot_Front_15
+  - first:
+      213: -8902157289930222718
+    second: Pot_Front_16
+  - first:
+      213: 8076394739796776686
+    second: Pot_Front_17
+  - first:
+      213: 1255630158877372998
+    second: Pot_Front_18
+  - first:
+      213: 7908899053148422119
+    second: Pot_Front_19
+  - first:
+      213: 6757478928824250170
+    second: Pot_Front_20
+  - first:
+      213: -6009486697316919128
+    second: Pot_Front_21
+  - first:
+      213: 3116561685975799820
+    second: Pot_Front_22
+  - first:
+      213: 1155416905225370523
+    second: Pot_Front_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pot_Front_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 1562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a43ba5f53defed0800000000000000
+      internalID: -2378231146707990009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1532
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3225dcdfe451df540800000000000000
+      internalID: 5043210586734547491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1530
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c953afa3565989210800000000000000
+      internalID: 1339985151156434332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1528
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e645ae988046a0800000000000000
+      internalID: -6467018849944934892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1529
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a96ee64b9e1ea20800000000000000
+      internalID: 3090007780516862575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_5
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1529
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100429b8d55bd8450800000000000000
+      internalID: 6092725284280352769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1528
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ebbc62caec0d100800000000000000
+      internalID: 130831627974327808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_7
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1532
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb47f34b81f20e920800000000000000
+      internalID: 3017463533488010428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_8
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1527
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3377664ea4677edb0800000000000000
+      internalID: -4762708016889432269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_9
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1524
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d606314795012cc0800000000000000
+      internalID: -3737700068548540711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_10
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1529
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae779314cbf8dacd0800000000000000
+      internalID: -2545220175683553302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_11
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd3d835771112c30800000000000000
+      internalID: 4332763520707673520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_12
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1532
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c594c509bc3c8f380800000000000000
+      internalID: -8937178181449004708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_13
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1523
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b8e155913bd4700800000000000000
+      internalID: 526273652855835488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_14
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 1531
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3293345e9441270800000000000000
+      internalID: 8220276468882154411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_15
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 1533
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aef2562dfd0bb7c0800000000000000
+      internalID: -4054631658596139356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_16
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 1530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2831e074c1f257480800000000000000
+      internalID: -8902157289930222718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_17
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1532
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee69b6ba93e151070800000000000000
+      internalID: 8076394739796776686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_18
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1525
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64237251af4ec6110800000000000000
+      internalID: 1255630158877372998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_19
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 1528
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efb55329cd02cd60800000000000000
+      internalID: 7908899053148422119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_20
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 1532
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fa1c9784367cd50800000000000000
+      internalID: 6757478928824250170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_21
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 1520
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a85dfb30b30a9ca0800000000000000
+      internalID: -6009486697316919128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_22
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 1530
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c081e255750404b20800000000000000
+      internalID: 3116561685975799820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_Front_23
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 1535
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b707bbd8dd80010800000000000000
+      internalID: 1155416905225370523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pot_Front_0: -2378231146707990009
+      Pot_Front_1: 5043210586734547491
+      Pot_Front_10: -2545220175683553302
+      Pot_Front_11: 4332763520707673520
+      Pot_Front_12: -8937178181449004708
+      Pot_Front_13: 526273652855835488
+      Pot_Front_14: 8220276468882154411
+      Pot_Front_15: -4054631658596139356
+      Pot_Front_16: -8902157289930222718
+      Pot_Front_17: 8076394739796776686
+      Pot_Front_18: 1255630158877372998
+      Pot_Front_19: 7908899053148422119
+      Pot_Front_2: 1339985151156434332
+      Pot_Front_20: 6757478928824250170
+      Pot_Front_21: -6009486697316919128
+      Pot_Front_22: 3116561685975799820
+      Pot_Front_23: 1155416905225370523
+      Pot_Front_3: -6467018849944934892
+      Pot_Front_4: 3090007780516862575
+      Pot_Front_5: 6092725284280352769
+      Pot_Front_6: 130831627974327808
+      Pot_Front_7: 3017463533488010428
+      Pot_Front_8: -4762708016889432269
+      Pot_Front_9: -3737700068548540711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
