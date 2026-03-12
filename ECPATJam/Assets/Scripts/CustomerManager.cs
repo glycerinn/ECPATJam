@@ -13,7 +13,7 @@ public class CustomerManager : MonoBehaviour
     public Transform spawnPoint;
     public Transform counterPoint;
     public Transform exitPoint;
-
+    CustomerBehaviour currentCustomer;
     public DialogueRunner dialogueRunner;
     TaskCompletionSource<bool> orderWait;
     public RecipeSO currentOrder;
@@ -31,8 +31,6 @@ public class CustomerManager : MonoBehaviour
         await orderWait.Task;
     }
 
-    CustomerBehaviour currentCustomer;
-
     public void CustomerLeave()
     {
         StartCoroutine(CustomerLeaveRoutine());
@@ -43,6 +41,7 @@ public class CustomerManager : MonoBehaviour
         yield return currentCustomer.MoveTo(exitPoint.position);
 
         Destroy(currentCustomer.gameObject);
+        currentCustomer = null;
     }
 
     public void OrderServed()
@@ -72,5 +71,11 @@ public class CustomerManager : MonoBehaviour
         currentOrder = currentCustomer.GetOrder();
 
         dialogueRunner.StartDialogue(data.yarnNode);
+
+        while (currentCustomer != null)
+            yield return null;
+
+        while (dialogueRunner.IsDialogueRunning)
+            yield return null;
     }
 }

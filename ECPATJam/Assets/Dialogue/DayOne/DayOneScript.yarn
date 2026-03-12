@@ -11,3 +11,16 @@ ST: Th-thank you, you’re a life saviour.
 Narrator: Customer left the counter
 -> Hm.. I think I can get used to this.
 ===
+title: Foreigner
+---
+A certain customer, not from here, ran into the room with a face giving a sign of indigestion while mumbling in an incomprehensible language.
+CS: Pep-permisi, aduh sakit perut.. Apakah ada.. Ramuan gitu.. yang mungkin bisa bantu-in rasa sakit perut?
+->I’m sorry, c-can you repeat everything you said again..?
+CS: K-ku mohon, s-saya membutuhkannya..
+-> (I-I don’t even understand what the hell is even this person talking about.. Judging from the face, maybe they might need something for their stomach.)
+<<wait_for_order>>
+CS: A-ah, sesuai apa yang dibutuhkan. Terima kasih, terima kasih!
+-> ..uh what?
+<<customer_leave>>
+That certain customer left the room in haste.
+===

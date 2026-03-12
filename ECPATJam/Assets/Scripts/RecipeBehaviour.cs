@@ -1,9 +1,11 @@
+using Unity.VectorGraphics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RecipeBehaviour : MonoBehaviour
 {
     public SpriteRenderer sr;
-    public CustomerManager customerManager;
+    [SerializeField] CustomerManager customerManager;
     RecipeSO currentRecipe;
 
     void Start()
@@ -20,8 +22,6 @@ public class RecipeBehaviour : MonoBehaviour
         }
 
         currentRecipe = recipeSO;
-        Debug.Log(currentRecipe);
-        Debug.Log(customerManager.currentOrder);
         sr.sprite = recipeSO.RecipeSprite;
         sr.enabled = true;
 
@@ -29,9 +29,11 @@ public class RecipeBehaviour : MonoBehaviour
 
     public void ServeDish()
     {
-        if(currentRecipe == customerManager.currentOrder)
+        TutorialManager tutorial = FindAnyObjectByType<TutorialManager>();
+
+        if(tutorial != null || currentRecipe == customerManager.currentOrder)
         {
-            customerManager.OrderServed();
+            customerManager?.OrderServed();
         }
         else
         {

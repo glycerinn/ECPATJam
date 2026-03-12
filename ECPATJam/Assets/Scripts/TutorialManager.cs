@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using Yarn.Unity;
+using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -11,10 +12,17 @@ public class TutorialManager : MonoBehaviour
     public bool cookClicked = false;
     public bool serveClicked = false;
     public GameObject tutorialBook;
+    public GameObject customerPrefab;
     public List<GameObject> Stuff;
     int ingredientCount = 0;
     int requiredIngredients = 0;
-    TaskCompletionSource<bool> waitSource; 
+    
+    public Transform spawnPoint;
+    public Transform counterPoint;
+    public Transform exitPoint;
+
+    TaskCompletionSource<bool> waitSource;
+    CustomerBehaviour currentCustomer;
    
     void Start()
     {
@@ -23,6 +31,23 @@ public class TutorialManager : MonoBehaviour
         dialogueRunner.AddCommandHandler("show_stuff", ShowStuff);
         dialogueRunner.AddCommandHandler<int>("wait_for_pot_ingredients", WaitForPotIngredients);
         dialogueRunner.AddCommandHandler("wait_for_serve", WaitForServe);
+        dialogueRunner.AddCommandHandler("customer_leave", CustomerLeave);
+    }
+
+    public void CustomerLeave()
+    {
+        StartCoroutine(CustomerLeaveRoutine());
+    }
+
+    IEnumerator CustomerLeaveRoutine()
+    {
+        yield return currentCustomer.MoveTo(exitPoint.position);
+
+        Destroy(currentCustomer.gameObject);
+
+         yield return new WaitForSeconds(1f);
+
+        SceneManager.LoadScene("DayOne");
     }
 
     public void ShowBook()
@@ -90,5 +115,12 @@ public class TutorialManager : MonoBehaviour
         {
             waitSource?.SetResult(true);
         }
+    }
+
+    public IEnumerator SpawnOfficer()
+    {
+        GameObject obj = Instantiate(customerPrefab, spawnPoint.position, Quaternion.identity);
+        currentCustomer = obj.GetComponent<CustomerBehaviour>();
+        yield return currentCustomer.MoveTo(counterPoint.position);
     }
 }

@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 18e3617488a8584408897bf8975de411
+guid: 5fed0d545adf04b458c4ce4c1a83d17f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 396255136312498737
-    second: Doggirl_Default_0
-  - first:
-      213: -14785817863168574
-    second: Doggirl_Default_1
+      213: 2825752389065260255
+    second: Bruno_Bucciarati_Infobox_Manga_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doggirl_Default_1
+      name: Bruno_Bucciarati_Infobox_Manga_0
       rect:
         serializedVersion: 2
-        x: 239
+        x: 0
         y: 0
-        width: 959
-        height: 1467
+        width: 451
+        height: 681
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cd5d8280687bcff0800000000000000
-      internalID: -14785817863168574
+      spriteID: fdc327d83d6173720800000000000000
+      internalID: 2825752389065260255
       vertices: []
       indices: 
       edges: []
@@ -141,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 06c009a8d25305f4d85e74f68a5201b4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -151,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doggirl_Default_0: 396255136312498737
-      Doggirl_Default_1: -14785817863168574
+      Bruno_Bucciarati_Infobox_Manga_0: 2825752389065260255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
