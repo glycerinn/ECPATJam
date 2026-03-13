@@ -17,6 +17,7 @@ public class CustomerManager : MonoBehaviour
     public DialogueRunner dialogueRunner;
     TaskCompletionSource<bool> orderWait;
     public RecipeSO currentOrder;
+    public GameObject DayFinish;
 
     void Start()
     {
@@ -57,10 +58,13 @@ public class CustomerManager : MonoBehaviour
         }
 
         Debug.Log("Day complete");
+
+        gameObject.SetActive(DayFinish);
     }
 
     IEnumerator SpawnCustomer(CustomerSO data)
     {
+        dialogueRunner.VariableStorage.SetValue("$correctDish", false);
         GameObject obj = Instantiate(customerPrefab, spawnPoint.position, Quaternion.identity);
 
         currentCustomer = obj.GetComponent<CustomerBehaviour>();

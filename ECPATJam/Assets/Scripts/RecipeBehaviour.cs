@@ -1,10 +1,12 @@
 using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class RecipeBehaviour : MonoBehaviour
 {
     public SpriteRenderer sr;
+    public DialogueRunner dialogueRunner;
     [SerializeField] CustomerManager customerManager;
     RecipeSO currentRecipe;
 
@@ -33,13 +35,15 @@ public class RecipeBehaviour : MonoBehaviour
 
         if(tutorial != null || currentRecipe == customerManager.currentOrder)
         {
-            customerManager?.OrderServed();
+            dialogueRunner.VariableStorage.SetValue("$correctDish", true);
         }
         else
         {
+            dialogueRunner.VariableStorage.SetValue("$correctDish", false);
             Debug.Log("Wrong dish!");
         }
 
+        customerManager?.OrderServed();
         sr.enabled = false;
         currentRecipe = null;
     }

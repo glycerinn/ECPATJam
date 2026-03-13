@@ -7,4 +7,5 @@ public class RecipeSO : ScriptableObject
     public string ResultRecipe;
     public List<MaterialSO> materials;
     public Sprite RecipeSprite;
+    public string description;
 }

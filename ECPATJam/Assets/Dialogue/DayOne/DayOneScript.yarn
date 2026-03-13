@@ -1,15 +1,25 @@
 ﻿title: Tiger
 ---
+<<declare $correctDish = false>>
 Narrator: A broad tiger man walked into the room, his eyes darting everywhere like he’s lost. Unsure if he’d even entered the right building. He looks at you, anticipating you to say something- say something goddamnit!
 -> Hi, uh. What can I get for you?
 ST: Umm, excuse me..?
 ST: ..Achoo! umm, I've got a really terrible cold today. Do you have something to help with it, perhaps something that could boost my immunity to fight my cold?
 -> Sure, please wait for a while.
+<<jump WaitForDishTiger>>
+===
+title: WaitForDishTiger
+---
 <<wait_for_order>>
-ST: Th-thank you, you’re a life saviour.
-<<customer_leave>>
-Narrator: Customer left the counter
--> Hm.. I think I can get used to this.
+<<if $correctDish>>
+    ST: Th-thank you, you’re a life saviour.
+    <<customer_leave>>
+    Narrator: Customer left the counter
+    -> Hm.. I think I can get used to this.
+<<else>>
+    ST: Umm… I-I don’t think this is what I need…
+    <<jump WaitForDishTiger>>
+<<endif>>
 ===
 title: Foreigner
 ---
@@ -18,9 +28,19 @@ CS: Pep-permisi, aduh sakit perut.. Apakah ada.. Ramuan gitu.. yang mungkin bisa
 ->I’m sorry, c-can you repeat everything you said again..?
 CS: K-ku mohon, s-saya membutuhkannya..
 -> (I-I don’t even understand what the hell is even this person talking about.. Judging from the face, maybe they might need something for their stomach.)
-<<wait_for_order>>
-CS: A-ah, sesuai apa yang dibutuhkan. Terima kasih, terima kasih!
--> ..uh what?
-<<customer_leave>>
-That certain customer left the room in haste.
+<<jump WaitForDishForeigner>>
 ===
+title: WaitForDishForeigner
+---
+<<wait_for_order>>
+<<if $correctDish>>
+    CS: A-ah, sesuai apa yang dibutuhkan. Terima kasih, terima kasih!
+    -> ..uh what?
+    <<customer_leave>>
+    Narrator: That certain customer left the room in haste, brushing shoulders with a particularly tall dragon- Is that… 
+<<else>>
+    CS: Aduh- sepertinya tidak sesuai! K-kamu kurang pandai!
+    <<jump WaitForDishForeigner>>
+<<endif>>
+===
+
