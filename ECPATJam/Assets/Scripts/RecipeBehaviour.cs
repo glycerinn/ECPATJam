@@ -31,19 +31,21 @@ public class RecipeBehaviour : MonoBehaviour
 
     public void ServeDish()
     {
+        bool rightDish = false;
         TutorialManager tutorial = FindAnyObjectByType<TutorialManager>();
 
         if(tutorial != null || currentRecipe == customerManager.currentOrder)
         {
-            dialogueRunner.VariableStorage.SetValue("$correctDish", true);
+            rightDish = true;
         }
-        else
+        else if(customerManager.currentOrder == null)
         {
-            dialogueRunner.VariableStorage.SetValue("$correctDish", false);
-            Debug.Log("Wrong dish!");
+            rightDish = true;
         }
 
+        dialogueRunner.VariableStorage.SetValue("$correctDish", rightDish);
         customerManager?.OrderServed();
+        
         sr.enabled = false;
         currentRecipe = null;
     }
