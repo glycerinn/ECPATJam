@@ -9,13 +9,20 @@ public class CustomerManager : MonoBehaviour
     public List<CustomerSO> customers;
 
     public GameObject customerPrefab;
+    int dishesCooked = 0;
+    int requiredDishes = 0;
+    int remainingOrders;
+
+    TaskCompletionSource<bool> cookWait;
+    TaskCompletionSource<bool> orderWait;
 
     public Transform spawnPoint;
     public Transform counterPoint;
     public Transform exitPoint;
-    CustomerBehaviour currentCustomer;
+
+    public CustomerBehaviour currentCustomer;
     public DialogueRunner dialogueRunner;
-    TaskCompletionSource<bool> orderWait;
+    
     public RecipeSO currentOrder;
     public GameObject DayFinish;
 
@@ -23,6 +30,7 @@ public class CustomerManager : MonoBehaviour
     {
         dialogueRunner.AddCommandHandler("wait_for_order", WaitForOrder);
         dialogueRunner.AddCommandHandler("customer_leave", CustomerLeave);
+        dialogueRunner.AddCommandHandler<int>("wait_for_cook", WaitForCookedDishes);
     }
 
     public async YarnTask WaitForOrder()
@@ -30,6 +38,26 @@ public class CustomerManager : MonoBehaviour
         orderWait = new TaskCompletionSource<bool>();
 
         await orderWait.Task;
+    }
+
+    public async YarnTask WaitForCookedDishes(int amount)
+    {
+        dishesCooked = 0;
+        requiredDishes = amount;
+
+        cookWait = new TaskCompletionSource<bool>();
+
+        await cookWait.Task;
+    }
+
+    public void DishCooked()
+    {
+        dishesCooked++;
+
+        if (dishesCooked >= requiredDishes)
+        {
+            cookWait?.SetResult(true);
+        }
     }
 
     public void CustomerLeave()
@@ -42,12 +70,16 @@ public class CustomerManager : MonoBehaviour
         yield return currentCustomer.MoveTo(exitPoint.position);
 
         Destroy(currentCustomer.gameObject);
-        currentCustomer = null;
     }
 
     public void OrderServed()
     {
-        orderWait?.SetResult(true);
+        remainingOrders--;
+
+        if (remainingOrders <= 0)
+        {
+            orderWait?.SetResult(true);
+        }
     }
 
     public IEnumerator StartDay()
@@ -73,6 +105,7 @@ public class CustomerManager : MonoBehaviour
         yield return currentCustomer.MoveTo(counterPoint.position);
 
         currentOrder = currentCustomer.GetOrder();
+        remainingOrders = currentCustomer.data.orderAmount;
 
         dialogueRunner.StartDialogue(data.yarnNode);
 

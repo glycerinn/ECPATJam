@@ -6,7 +6,7 @@ public class CustomerBehaviour : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public float moveSpeed = 3f;
 
-    CustomerSO data;
+    public CustomerSO data;
 
     public void Initialize(CustomerSO customerData)
     {

@@ -5761,7 +5761,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8559061431615984903, guid: 7416dcee79d709b4da6fe7fa52e83da2, type: 3}
+  m_Sprite: {fileID: 4361805030783031280, guid: 6c3b6e551d9583f47ba2f8e1754ebe9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6667,7 +6667,7 @@ PrefabInstance:
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: 74455f4812ee3224bb6308d96e9f854b, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: 9fe27b3c3cd6cb74d8394e0a4eee39b2, type: 3}
     - target: {fileID: 9078442560890639579, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7133,9 +7133,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomerManager
   customers:
-  - {fileID: 11400000, guid: 9be3330b51c191849a4cdb0100e06d33, type: 2}
-  - {fileID: 11400000, guid: 6123b071a40daab4991f3a604cf34b89, type: 2}
-  - {fileID: 11400000, guid: cbba2a50f6b9dba42ac10cc9f65b26b1, type: 2}
+  - {fileID: 11400000, guid: 19058c2798b0caa47ae174ba53e5b8b8, type: 2}
+  - {fileID: 11400000, guid: 6cd04fb10d1805f44acca37856478c71, type: 2}
+  - {fileID: 11400000, guid: bdc94c63e5e0de84eb954245695318f0, type: 2}
   customerPrefab: {fileID: 1727633176}
   spawnPoint: {fileID: 401695461}
   counterPoint: {fileID: 1924775049}
