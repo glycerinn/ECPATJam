@@ -5055,7 +5055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1620060736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5113,8 +5113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: 0}
-  m_SizeDelta: {x: 58.2335, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: -25.825989}
+  m_SizeDelta: {x: 58.2335, y: 51.652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620060739
 MonoBehaviour:
@@ -5857,7 +5857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4714529162980160749, guid: a63d3655ae657b64e9a9f17800998a8e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7131,9 +7131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomerManager
   customers:
-  - {fileID: 11400000, guid: cbba2a50f6b9dba42ac10cc9f65b26b1, type: 2}
   - {fileID: 11400000, guid: 9be3330b51c191849a4cdb0100e06d33, type: 2}
   - {fileID: 11400000, guid: 6123b071a40daab4991f3a604cf34b89, type: 2}
+  - {fileID: 11400000, guid: cbba2a50f6b9dba42ac10cc9f65b26b1, type: 2}
   customerPrefab: {fileID: 1727633176}
   spawnPoint: {fileID: 401695461}
   counterPoint: {fileID: 1924775049}

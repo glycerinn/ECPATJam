@@ -59,7 +59,7 @@ public class CustomerManager : MonoBehaviour
 
         Debug.Log("Day complete");
 
-        gameObject.SetActive(DayFinish);
+        DayFinish.SetActive(true);
     }
 
     IEnumerator SpawnCustomer(CustomerSO data)

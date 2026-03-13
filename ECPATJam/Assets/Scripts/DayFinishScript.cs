@@ -10,7 +10,6 @@ public class DayFinishScript : MonoBehaviour
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
-        Time.timeScale = 1f;
         StartCoroutine(levelLoader.PlayBackTransition());
     }
 
