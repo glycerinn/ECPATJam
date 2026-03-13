@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     private int currentSceneIndex;
+    public LevelLoader levelLoader;
 
     public static bool GameisPaused = false;
         public GameObject pauseMenuUI;
@@ -43,6 +44,6 @@ public class PauseMenu : MonoBehaviour
             currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
             Time.timeScale = 1f;
-            SceneManager.LoadScene("MainMenu");
+            StartCoroutine(levelLoader.PlayBackTransition());
         }
 }

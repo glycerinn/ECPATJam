@@ -4,17 +4,18 @@ using UnityEngine.SceneManagement;
 public class DayFinishScript : MonoBehaviour
 {
     private int currentSceneIndex;
+    public LevelLoader levelLoader;
 
     public void LoadMenu()
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        StartCoroutine(levelLoader.PlayBackTransition());
     }
 
     public void NextDay()
     {
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        StartCoroutine(levelLoader.PlayNextTransition());
     }
 }

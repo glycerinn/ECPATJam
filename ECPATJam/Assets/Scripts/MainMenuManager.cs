@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuManager : MonoBehaviour
 {
     // public GameObject Credits;
-    // public LevelLoader levelLoader;
+    public LevelLoader levelLoader;
     // private AudioManager audioManager;
     private int sceneToContinue;
 
@@ -23,9 +23,8 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("TutorialScene");
+        StartCoroutine(levelLoader.PlayTutorialTransition());
         // audioManager.playButtonSFX();
-        // StartCoroutine(levelLoader.PlayTransition());
     }
 
     public void CreditsShow()
@@ -51,7 +50,7 @@ public class MainMenuManager : MonoBehaviour
         sceneToContinue = PlayerPrefs.GetInt("SavedScene");
         if(sceneToContinue != 0)
         {
-            SceneManager.LoadScene(sceneToContinue);
+            StartCoroutine(levelLoader.PlayContinueTransition(sceneToContinue));
         }
         else
         {

@@ -5,7 +5,6 @@ public class RecipeBook : MonoBehaviour
 {
     public List<RecipeSO> recipes;
     public GameObject RecipePages;
-    public RecipeBookUI recipeBookUI;
 
     public RecipeSO CheckMaterials(List<MaterialSO> inPotMaterials)
     {
@@ -38,7 +37,6 @@ public class RecipeBook : MonoBehaviour
     public void ShowRecipes()
     {
         RecipePages.SetActive(true);
-        recipeBookUI.GenerateRecipeButtons();
     }
 
 }

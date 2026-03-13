@@ -20,6 +20,7 @@ public class TutorialManager : MonoBehaviour
     public Transform spawnPoint;
     public Transform counterPoint;
     public Transform exitPoint;
+    public LevelLoader levelLoader;
 
     TaskCompletionSource<bool> waitSource;
     CustomerBehaviour currentCustomer;
@@ -45,9 +46,7 @@ public class TutorialManager : MonoBehaviour
 
         Destroy(currentCustomer.gameObject);
 
-         yield return new WaitForSeconds(1f);
-
-        SceneManager.LoadScene("DayOne");
+        StartCoroutine(levelLoader.PlayNextTransition());
     }
 
     public void ShowBook()
