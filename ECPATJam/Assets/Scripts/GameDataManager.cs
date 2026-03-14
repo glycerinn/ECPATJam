@@ -1,9 +1,9 @@
 using UnityEngine;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameDataManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    public static GameDataManager Instance;
     public string playerName;
 
     void Awake()

@@ -27,15 +27,112 @@ DIAGITTNPG:  t h a n k  y o u  f o r  a c c e p t i n g  t h i s  s e l f i s h 
 <<customer_leave>>
 Narrator: The slender person left the counter, suddenly you feel a weird sense of satisfaction. A feeling that could’ve been obtained long before if you’re doing the right thing. You are now feeling motivated to make two nasi kunyit for the next customer. Not from orders, but from your pure desires.
 Note: Put the product
+<<wait_for_cook 2>>
+Narrator: You hear the sound of footsteps approaching the stall.
+-> Hey congratulations! You’re-
 ===
 title: NotHorror
 ---
-<<wait_for_cook 2>>
--> Hey congratulations! You’re-
 Narrator: A similar slender person with a low quality mustache attached on its face came to the counter.
 Not DIAGITTNPG:  . . .
 Not DIAGITTNPG:  a y y ,  a r e  t h o s e  f o r  m e ? ? ?
 -> …
     -> ..sure, yeah. Sure friend.
+<<wait_for_order>>
 <<customer_leave>>
+===
+title: Robot
+---
+<<declare $correctDish = false>>
+OW: Excuse me sir, can I order for one wedang sereh?
+-> ..uhh?
+OW: Yes, I am a machine, a revolutionary finding before, and now it’s just an office worker.
+OW: Is that weird for you?
+-> Ah no, this is my first time seeing a robot.
+    -> I’m curious, what do you need a wedang sereh for?
+OW: My coworker had a stressful day, she got rejected by her crush.
+-> Ouch.
+OW: I want to help her to feel better.
+-> Then let me help your colleague with that. Please wait for a while.
+<<wait_for_order>>
+-> Here you go.
+OW: Thank you, here’s your changes. She will appreciate this.
+OW: …
+OW: She’s been kind to me before, so I wanted to pay her back.
+<<customer_leave>>
+===
+title: Charlotte
+---
+<<declare $playerName = "Player">>
+Narrator: A woman sharply dressed walked into your view. She squints at you like trying to read a cursive font. 
+Woman: {$playerName}, right? 
+Woman: I thought I’d visit you, for formalities.
+Woman: …
+Woman: I wish I could be more mad at you. 
+Narrator: Her brows furrowed, her face turned from cold to bitter. 
+Narrator: Huh.
+Narrator: You recognize that face. It’s so familiar. Images of a particularly bright day flashed in your head. Sun rays were being filtered by the trees surrounding you. You remember something about.. Icecreams.. 
+Woman: … Nothing to say?
+Narrator: The ice cream was on the floor. It was chocolate flavored. You look in front to see a girl pouting, her face on the brink of crying. 
+Narrator: … Your little sister.
+-> Charlotte? 
+Charlotte: Took you long enough.
+Narrator: You can see that her lips are trembling, she’s trying not to look at you. 
+-> Hug her
+    Narrator: You reach out to hug her, but there is a counter and a pot between you. So you gave her an awkward pat on the back. 
+    Charlotte: Haha, you’re still as odd as ever.
+-> Are you okay?
+    Charlotte: I was.. Until I finally see you in person. 
+    Charlotte: I shouldn’t be tearing up. 
+-> You are so different now.. 
+    Charlotte: What did you expect? It has been years. You look really different yourself too. 
+Charlotte: I just wanted to ask, why did you stop writing back to me? 
+Narrator: Of course, they’re going to ask about that, again. You did ignore them after all. It doesn’t matter what the reason was. 
+-> You’re not the first person to ask me that.
+    -> It’s complicated
+        -> After my incarceration, I was really burdened with guilt and shame. My self worth was abysmal.
+            -> I felt like a disgrace to our family. You know how it was already with our parents.
+                -> I tried to write back to you more often but it was really hard. I felt bad to even let you interact with some murderer scum like me. 
+                    -> I thought it'd be easier for the both of us if you would just forget. Our parents clearly wanted you to. 
+                        -> You always asked me about how I’m doing… I didn’t want you to know about what was going on in my head. It.. was really bad.
+                            Charlotte: You idiot.
+                            Charlotte: I felt so scared and alone at that time.
+    -> I was depressed
+        -> MC: I was a mess, I was so ashamed. People keep wanting to see me but I didn’t want them to see me, not when I’m in that state. My memories of that time were a blur. 
+            -> I hated myself so much. I hated myself for what I did. Everyday in that prison cell I kept thinking about what I did. The exact moments kept repeating in my head, I felt like I couldn’t live at all.
+                -> I told myself the world would be a better place if I died. It’ll be better for everyone if they just forget about me and live on with their life. 
+                    Charlotte: I’m.. I’m really sorry.
+                    Narrator: She looks… worried. 
+                        ->Ah. Sorry, I shouldn’t have said all that to you…
+                            -> You must have gone through a lot after my incarceration.
+                                Charlotte: Yes. I did. 
+    -> But I don’t really wanna talk about that right now
+        Charlotte: It’s okay. I will wait until you’re ready to tell me.  
+Charlotte: Our parents became worse after you got into jail. Seeing their eldest is going to be unavailable for fifteen years and more. 
+Charlotte: I must be their perfect kid to overshadow their ‘disgrace’ is what they told me. They wanted me to take up the company as the next in line. 
+Charlotte: I remember hating you so much for putting me in this position. 
+-> Did you actually listen to them?
+Charlotte: …
+Charlotte: You can probably guess from my clothes and how miserable I look. 
+Charlotte: Yes, I am a chairwoman, now. 
+Charlotte: I finally get why you like drinking.
+Charlotte: …
+Charlotte: I shouldn’t have said that. 
+Charlotte: I’m also extremely busy which reminds me that I actually have a meeting really soon. I wish I could stay longer to chat, but, I’ll be seeing you around.
+-> Wait, Don’t go just yet, I have something to give to you!
+<<wait_for_order>>
+-> This is what I have to do for my community service. I made you this, I hope this can help you get through the day. I’m really sorry, once again.
+Narrator: She gave you a cheeky smile.
+Charlotte: You think this is going to buy you my forgiveness? It was more than a decade of pain and suffering. 
+Narrator: She chuckles
+Charlotte: Still, thank you
+-> I promise I’ll make it up to you once I’m actually out. Chocolate ice cream, how about that?
+Charlotte: Ha… That brings me back. Sure, that’ll do. But do you even have anything left to your name? Brokeass. 
+-> I know you’re rich now, stop rubbing it in my face.
+    -> Good luck, Charlotte. 
+<<customer_leave>>
+Narrator: She turned around and walked away. “I still hate you by the way!” She yelled at you, this time with a smile on her face. You felt a bit of weight lift off from your chest. It really does bring you back. 
+Narrator: She did bawl her eyes out because of her fallen ice cream that was definitely not your doing. Yes, you didn’t apologize and called her selfish for not wanting to share.
+Narrator: She’s all grown up now, taking the chairman spot that was supposed to be yours. You can see how much those years had hardened her. Are you proud or are you sorry for her? You were sort of the catalyst for her transformation. Maybe if you didn't drink that night…
+Narrator: There is no use for maybe-s anymore. It’s been fifteen years already, fifteen years is a long time.
 ===

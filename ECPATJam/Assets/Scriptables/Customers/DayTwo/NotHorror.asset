@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NotHorror
   m_EditorClassIdentifier: Assembly-CSharp::CustomerSO
   customerName: DIAGITTNPG
-  sprite: {fileID: 4361805030783031280, guid: 6c3b6e551d9583f47ba2f8e1754ebe9a, type: 3}
+  sprite: {fileID: 4984965389740330631, guid: 0f0d9d21aebdb5247921b5423b235442, type: 3}
   order: {fileID: 11400000, guid: 255584ee4775c044b91ff65efe53e1bc, type: 2}
   orderAmount: 2
   yarnNode: NotHorror

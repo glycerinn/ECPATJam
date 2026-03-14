@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ff1569e3d6989438bcabb6d2ea1f27, type: 3}
   m_Name: WedangJaheSereh
   m_EditorClassIdentifier: Assembly-CSharp::RecipeSO
-  ResultRecipe: WedangJaheSereh
+  ResultRecipe: Wedang Jahe Sereh
   materials:
   - {fileID: 11400000, guid: 1fef5df717bdc0346ba503aac4425400, type: 2}
   - {fileID: 11400000, guid: ac022b9cbc865d8408d69ceb48a9bbc4, type: 2}
   RecipeSprite: {fileID: -7549701697072656503, guid: 65191bde85ee4e242849c7ba2b9b8383, type: 3}
+  description: 

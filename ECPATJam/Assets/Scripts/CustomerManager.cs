@@ -9,8 +9,8 @@ public class CustomerManager : MonoBehaviour
     public List<CustomerSO> customers;
 
     public GameObject customerPrefab;
-    int dishesCooked = 0;
     int requiredDishes = 0;
+    int dishesCookedDuringWait = 0;
     int remainingOrders;
 
     TaskCompletionSource<bool> cookWait;
@@ -22,6 +22,7 @@ public class CustomerManager : MonoBehaviour
 
     public CustomerBehaviour currentCustomer;
     public DialogueRunner dialogueRunner;
+    public RecipeBehaviour recipeBehaviour;
     
     public RecipeSO currentOrder;
     public GameObject DayFinish;
@@ -42,7 +43,7 @@ public class CustomerManager : MonoBehaviour
 
     public async YarnTask WaitForCookedDishes(int amount)
     {
-        dishesCooked = 0;
+        dishesCookedDuringWait = 0;
         requiredDishes = amount;
 
         cookWait = new TaskCompletionSource<bool>();
@@ -52,11 +53,14 @@ public class CustomerManager : MonoBehaviour
 
     public void DishCooked()
     {
-        dishesCooked++;
+        if (cookWait == null || cookWait.Task.IsCompleted)
+            return;
 
-        if (dishesCooked >= requiredDishes)
+        dishesCookedDuringWait++;
+
+        if (dishesCookedDuringWait >= requiredDishes)
         {
-            cookWait?.SetResult(true);
+            cookWait.SetResult(true);
         }
     }
 
@@ -78,7 +82,11 @@ public class CustomerManager : MonoBehaviour
 
         if (remainingOrders <= 0)
         {
-            orderWait?.SetResult(true);
+            if (orderWait != null && !orderWait.Task.IsCompleted)
+            {
+                recipeBehaviour.ConsumeDishes(currentCustomer.data.orderAmount);
+                orderWait?.SetResult(true);
+            }
         }
     }
 
