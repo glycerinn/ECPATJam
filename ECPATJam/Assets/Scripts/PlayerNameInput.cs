@@ -13,12 +13,13 @@ public class PlayerNameInput : MonoBehaviour
     public void SubmitName()
     {
         string playerName = inputField.text;
-        GameManager.Instance.playerName = inputField.text;
+        GameDataManager.Instance.playerName = inputField.text;
 
         if (string.IsNullOrWhiteSpace(playerName))
         playerName = "Player";
 
         dialogueRunner.VariableStorage.SetValue("$playerName", playerName);
+        PlayerPrefs.SetString("playerName", playerName);
         
         inputCanvas.SetActive(false);
         

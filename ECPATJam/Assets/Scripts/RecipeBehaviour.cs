@@ -10,12 +10,27 @@ public class RecipeBehaviour : MonoBehaviour
     public DialogueRunner dialogueRunner;
     [SerializeField] int maxDishes = 3;
     [SerializeField] CustomerManager customerManager;
+    List<SpriteRenderer> dishSprites = new List<SpriteRenderer>();
+    [SerializeField] float stackHeight = 0.15f;
 
     List<RecipeSO> cookedDishes = new List<RecipeSO>();
 
     void Start()
     {
-        sr.enabled = false;
+        
+    }
+
+    public void ConsumeDishes(int amount)
+    {
+        for (int i = 0; i < amount; i++)
+        {
+            if (cookedDishes.Count == 0)
+                break;
+
+            cookedDishes.RemoveAt(cookedDishes.Count - 1);
+        }
+
+        UpdateDishDisplay();
     }
 
     public void ShowDish(RecipeSO recipeSO)
@@ -36,7 +51,7 @@ public class RecipeBehaviour : MonoBehaviour
 
         cookedDishes.Add(recipeSO);
 
-        UpdateDishDisplay();
+        CreateDishSprite(recipeSO);
     }
 
     public void ServeDish()
@@ -62,19 +77,54 @@ public class RecipeBehaviour : MonoBehaviour
 
         customerManager?.OrderServed();
 
+        RemoveTopDishSprite();
+
         UpdateDishDisplay();
+    }
+
+    void CreateDishSprite(RecipeSO recipe)
+    {
+        GameObject dishObj = new GameObject("Dish");
+
+        dishObj.transform.SetParent(transform);
+
+        int index = dishSprites.Count;
+
+        dishObj.transform.localPosition = new Vector3(0, stackHeight * index, 0);
+
+        SpriteRenderer newSR = dishObj.AddComponent<SpriteRenderer>();
+        newSR.sprite = recipe.RecipeSprite;
+
+        newSR.sortingLayerID = sr.sortingLayerID;
+        newSR.sortingOrder = sr.sortingOrder + index;
+
+        dishSprites.Add(newSR);
+    }
+
+    void RemoveTopDishSprite()
+    {
+        if (dishSprites.Count == 0)
+            return;
+
+        SpriteRenderer top = dishSprites[dishSprites.Count - 1];
+
+        dishSprites.RemoveAt(dishSprites.Count - 1);
+
+        Destroy(top.gameObject);
     }
 
     void UpdateDishDisplay()
     {
-        if (cookedDishes.Count == 0)
+        for (int i = 0; i < dishSprites.Count; i++)
         {
-            sr.enabled = false;
-            return;
+            dishSprites[i].transform.localPosition = new Vector3(0, stackHeight * i, 0);
+            dishSprites[i].sortingOrder = i;
         }
+    }
 
-        sr.sprite = cookedDishes[cookedDishes.Count - 1].RecipeSprite;
-        sr.enabled = true;
+    public int GetDishCount()
+    {
+        return cookedDishes.Count;
     }
     
 }

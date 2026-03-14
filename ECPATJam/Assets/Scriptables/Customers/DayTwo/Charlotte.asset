@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 683bdd59fd73678478622168862108ae, type: 3}
-  m_Name: Horror
+  m_Name: Charlotte
   m_EditorClassIdentifier: Assembly-CSharp::CustomerSO
-  customerName: DIAGITTNPG
-  sprite: {fileID: -4181814149955083217, guid: 7fb3302c19ea8ae42a14a14f0b07b7bd, type: 3}
+  customerName: Charlotte
+  sprite: {fileID: -7153575270644845534, guid: f250807ff3c97e744b65a0daf231448a, type: 3}
   order: {fileID: 0}
   orderAmount: 1
-  yarnNode: Horror
+  yarnNode: Charlotte
