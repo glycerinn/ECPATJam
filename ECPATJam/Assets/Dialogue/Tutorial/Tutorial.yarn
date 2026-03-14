@@ -4,7 +4,6 @@ position: 65,-136
 Narrator: This is your first day outside the prison, that dingy little building that has been your ‘home’ for the last fifteen years. It is a strange sensation to see the sun without those tall concrete walls. 
 Narrator: A lot has changed in this town since you served your sentence. That old pizza place you used to visit was demolished, standing in its place is now some currency exchange service. 
 Narrator: Your community work is going to start soon. You don’t feel like you’re ready yet.
-<<jump FirstStep>>
 ===
 title: FirstStep
 position: -84,39
@@ -34,4 +33,5 @@ Officer: Change of subject, by the way, tis’ recipe book is such a stub. Try e
 Officer: Now, do a good job and someday you’ll be free, perhaps. I’ll be back later to check up on your progress, you understand? 
 -> Yes Ma’am.
 Narrator: The officer turned her back
+<<customer_leave>>
 ===

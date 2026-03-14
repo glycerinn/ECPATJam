@@ -58,7 +58,7 @@ public class MaterialBehaviour : MonoBehaviour
     void OnMouseDrag()
     {
         HasBeenClicked = true;
-        transform.position = GetMousePos();
+        rb.MovePosition(GetMousePos());
     }
 
     public MaterialSO GetMaterial()

@@ -1,0 +1,105 @@
+﻿title: Tiger
+---
+<<declare $correctDish = false>>
+Narrator: A broad tiger man walked into the room, his eyes darting everywhere like he’s lost. Unsure if he’d even entered the right building. He looks at you, anticipating you to say something- say something goddamnit!
+-> Hi, uh. What can I get for you?
+ST: Umm, excuse me..?
+ST: ..Achoo! umm, I've got a really terrible cold today. Do you have something to help with it, perhaps something that could boost my immunity to fight my cold?
+-> Sure, please wait for a while.
+<<jump WaitForDishTiger>>
+===
+title: WaitForDishTiger
+---
+<<wait_for_order>>
+<<if $correctDish>>
+    ST: Th-thank you, you’re a life saviour.
+    <<customer_leave>>
+    Narrator: Customer left the counter
+    -> Hm.. I think I can get used to this.
+<<else>>
+    ST: Umm… I-I don’t think this is what I need…
+    <<jump WaitForDishTiger>>
+<<endif>>
+===
+title: Foreigner
+---
+A certain customer, not from here, ran into the room with a face giving a sign of indigestion while mumbling in an incomprehensible language.
+CS: Pep-permisi, aduh sakit perut.. Apakah ada.. Ramuan gitu.. yang mungkin bisa bantu-in rasa sakit perut?
+->I’m sorry, c-can you repeat everything you said again..?
+CS: K-ku mohon, s-saya membutuhkannya..
+-> (I-I don’t even understand what the hell is even this person talking about.. Judging from the face, maybe they might need something for their stomach.)
+<<jump WaitForDishForeigner>>
+===
+title: WaitForDishForeigner
+---
+<<wait_for_order>>
+<<if $correctDish>>
+    CS: A-ah, sesuai apa yang dibutuhkan. Terima kasih, terima kasih!
+    -> ..uh what?
+    <<customer_leave>>
+    Narrator: That certain customer left the room in haste, brushing shoulders with a particularly tall dragon- Is that… 
+<<else>>
+    CS: Aduh- sepertinya tidak sesuai! K-kamu kurang pandai!
+    <<jump WaitForDishForeigner>>
+<<endif>>
+===
+title: BestFriend
+---
+Mauve: …Hey…
+Narrator: The person gave you an awkward wave. You feel your heart drop. You are not ready to face the people that used to be in your life. 
+Mauve: Wow..I can’t believe it’s really you man, I- Damn, you look awful. 
+-> What are you doing here?
+    Mauve: You’re really, seriously, asking me that? After leaving us all in the dark you’d think we would forget about you?
+    Mauve: I’ve been waiting for the day they’d finally let you outta that craphole. 
+    Mauve: I got news you would be doing community service today. 
+-> Are you here just to comment on me? 
+    Mauve: No, no it’s just, wow, those stress lines and eyebags. Prison life has been harsh, huh? 
+    Mauve: I got news you would be doing community service today. 
+-> Who are you? 
+    Mauve: Man, stop joking around.
+    Mauve: You can’t pretend like you don’t know me at all. 
+Mauve: I missed you buddy, okay. The gang ain’t the same without you.
+-> The gang, how are they doing? 
+    Mauve: Oh, where do I begin? It’s been fifteen damn years! You practically missed out on fifteen years of our life. 
+    Mauve: Well, Jim's gotten a new partner recently- again. That guy’s still a player. And umm, Stacey, she’s, uh, she’s a lawyer now… what else.. Ah Delver's doing music gigs in The Big Bug, you know, that ugly pub downtown.
+    -> That thing is still standing?
+        Mauve: Yeah, It’s been around  before your parents were even born, doubt it’ll go anytime soon.
+        -> Wait then, what happened to the misfortunes?
+            Mauve: You, you happened. 
+            Mauve: We disbanded not long after. Cheesy as it sounds, we were the misfortunes man not the misthreetunes- it just doesn’t work. We tried keeping it alive but it just isn’t the same without our star vocalist. 
+-> Don’t ask about it
+Mauve : Your arrest really messed us up good, man. Things are hard after, we were like a dysfunctional family. I didn't realize how much you were sort of the glue that kept us together. 
+Mauve: We tried to visit you everyday but they kept telling us you didn’t want visitors. You seldom wrote back to us. I know damn well you got those letters. Tell me man, why did you do me like that, I wanted to talk to you badly! 
+-> I was ashamed
+    -> I was just ashamed of what I did and I couldn’t bear to face you all. I didn’t want to see your faces.
+        -> I was in a complete state of disarray. I promise myself that I’ll eventually have to face you all some day. But that someday suddenly becomes the next month, the next year, the next whenever.
+            -> And eventually it becomes: “until I am not morally reprehensible” 
+-> I don’t know
+    -> I don’t know why I did that.
+        ->Everything from back then was kind of a blur.
+-> That is none of your business
+    Mauve: Sure. Yeah. Of course it isn’t my business to know what my best friend is doing.
+    Mauve: Maybe it really isn’t. I’m not entitled to your life, I suppose. 
+Mauve: I get it. I get that it’s hard to make mistakes. I get that it makes you ashamed of yourself, but you shouldn’t have pushed us away. 
+Narrator: You can hear her voice cracking.
+Mauve: Everyone else moved on, decided that you didn’t want anything with them anymore. Slowly, you became a distant memory to them. But It never did for me, I could never move on. 
+Mauve: Days gone by, seasons passed. I wish it could’ve been with you.
+-> I’m sorry. I really am.
+    Mauve:  Hah.. it’s okay. I’m just glad to see you again. I probably need some time to process all of this but I’m so glad. We’re.. Still friends right? 
+        -> Of course.. Thank you for always thinking about me…
+            -> Here, I think you could use some of these
+                <<wait_for_order>>
+-> Cut that sappy crap bro, I’m here to work. Do you need anything?
+    Mauve: Wow. I guess prison life turned you into an arse. Whatever. Forget about it.
+    Mauve: Just give me anything you want. I don’t care.
+    <<wait_for_order>>
+-> Say nothing 
+    Mauve: …Sorry. That was corny. Oh, well. Um. So you’re here to cook up herbs and stuff, right. 
+    Mauve: Can you give me something? Whatever you want. (So I look like I didn’t come here just to talk).
+    <<wait_for_order>>
+Mauve: Thank you for umm, whatever this is. I think I’ve overstayed my welcome. 
+Narrator: Sure enough, you can see some customers piling up in the back. They averted their gaze when you looked at them… They are for sure listening to the two of you and didn’t want to bother an emotional reunion. 
+Mauve: I hope we keep in touch. There is still a lot more I wanna tell you.
+<<customer_leave>>
+Narrator: Your best friend walked away, glancing back for a while before setting off. You can see her apologizing to the people behind for holding them up. 
+===

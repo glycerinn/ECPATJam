@@ -1,11 +1,13 @@
 using UnityEngine;
 using TMPro;
 using Yarn.Unity;
+using System.Collections;
 
 public class PlayerNameInput : MonoBehaviour
 {
     public TMP_InputField inputField;
     public DialogueRunner dialogueRunner;
+    public TutorialManager tutorialManager;
     public GameObject inputCanvas;
 
     public void SubmitName()
@@ -17,8 +19,21 @@ public class PlayerNameInput : MonoBehaviour
         playerName = "Player";
 
         dialogueRunner.VariableStorage.SetValue("$playerName", playerName);
+        
+        inputCanvas.SetActive(false);
+        
+        StartCoroutine(IntroSequence());
+    }
+
+    IEnumerator IntroSequence()
+    {
         dialogueRunner.StartDialogue("Intro");
 
-        inputCanvas.SetActive(false);
+        while (dialogueRunner.IsDialogueRunning)
+            yield return null;
+
+        yield return StartCoroutine(tutorialManager.SpawnOfficer());
+
+        dialogueRunner.StartDialogue("FirstStep");
     }
 }

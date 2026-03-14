@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Lemongrass
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: Lemongrass
-  MaterialStartPos: {x: 7.5, y: -0.39, z: 0}
+  MaterialStartPos: {x: 6.77, y: -0.67999995, z: 0}
   MaterialSprite: {fileID: -613832521311956548, guid: ce33713044f9c234a8fce5b2ca98ee4d, type: 3}
