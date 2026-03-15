@@ -16,23 +16,27 @@ public class TutorialManager : MonoBehaviour
     public List<GameObject> Stuff;
     int ingredientCount = 0;
     int requiredIngredients = 0;
+    public RecipeBehaviour recipeBehaviour;
     
     public Transform spawnPoint;
     public Transform counterPoint;
     public Transform exitPoint;
     public LevelLoader levelLoader;
+    public RecipeSO expectedRecipe;
 
     TaskCompletionSource<bool> waitSource;
     CustomerBehaviour currentCustomer;
    
     void Start()
     {
+        dialogueRunner.VariableStorage.SetValue("$correctDish", false);
         dialogueRunner.AddCommandHandler("show_book", ShowBook);
         dialogueRunner.AddCommandHandler("wait_for_book", WaitForBook);
         dialogueRunner.AddCommandHandler("show_stuff", ShowStuff);
         dialogueRunner.AddCommandHandler<int>("wait_for_pot_ingredients", WaitForPotIngredients);
         dialogueRunner.AddCommandHandler("wait_for_serve", WaitForServe);
         dialogueRunner.AddCommandHandler("customer_leave", CustomerLeave);
+        dialogueRunner.AddCommandHandler("reset_pot", ResetPot);
     }
 
     public void CustomerLeave()
@@ -70,6 +74,18 @@ public class TutorialManager : MonoBehaviour
         while (!bookClicked)
         {
             yield return null;
+        }
+    }
+
+    public void CheckCookedRecipe(RecipeSO cookedRecipe)
+    {
+        if(cookedRecipe == expectedRecipe)
+        {
+            dialogueRunner.VariableStorage.SetValue("$correctDish", true);
+        }
+        else
+        {
+            dialogueRunner.VariableStorage.SetValue("$correctDish", false);
         }
     }
 
@@ -114,6 +130,11 @@ public class TutorialManager : MonoBehaviour
         {
             waitSource?.SetResult(true);
         }
+    }
+
+    public void ResetPot()
+    {
+        recipeBehaviour.ConsumeDishes(1); // remove wrong dish if still on counter
     }
 
     public IEnumerator SpawnOfficer()

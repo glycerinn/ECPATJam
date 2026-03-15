@@ -41,6 +41,13 @@ public class TutorialPot : MonoBehaviour
 
         recipeBehaviour.ShowDish(recipe);
 
+        TutorialManager tutorial = FindAnyObjectByType<TutorialManager>();
+        if (tutorial != null)
+        {
+            tutorial.clickCook();
+            Debug.Log("Cooked recipe: " + recipe.name);
+        }
+
         foreach(MaterialBehaviour materialBehaviour in materialsInPot)
         {
             Destroy(materialBehaviour.gameObject);

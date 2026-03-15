@@ -5,9 +5,16 @@ public class RecipeBook : MonoBehaviour
 {
     public List<RecipeSO> recipes;
     public GameObject RecipePages;
+    [SerializeField] RecipeSO failedRecipe;
 
     public RecipeSO CheckMaterials(List<MaterialSO> inPotMaterials)
     {
+        if (inPotMaterials == null || inPotMaterials.Count == 0)
+        {
+            Debug.Log("Pot is empty");
+            return null;
+        }
+        
         foreach(RecipeSO recipe in recipes)
         {
             if(MatchRecipe(inPotMaterials, recipe.materials))
@@ -17,7 +24,7 @@ public class RecipeBook : MonoBehaviour
             }
         }
 
-        return null;
+        return failedRecipe;
     }
 
     bool MatchRecipe(List<MaterialSO> inPot, List<MaterialSO> recipes)

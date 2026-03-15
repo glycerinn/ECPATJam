@@ -3117,6 +3117,7 @@ MonoBehaviour:
   recipes:
   - {fileID: 11400000, guid: fdb4c6a0c4d59384bad3e632233bcea2, type: 2}
   RecipePages: {fileID: 1284818870}
+  failedRecipe: {fileID: 11400000, guid: 0fdc347fc2926154e9e35703393448d3, type: 2}
 --- !u!224 &994661650
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3629,10 +3630,12 @@ MonoBehaviour:
   - {fileID: 2058568978}
   - {fileID: 293107091}
   - {fileID: 1451698593}
+  recipeBehaviour: {fileID: 449417675}
   spawnPoint: {fileID: 73587418}
   counterPoint: {fileID: 1972463281}
   exitPoint: {fileID: 73587418}
   levelLoader: {fileID: 297672478}
+  expectedRecipe: {fileID: 11400000, guid: fdb4c6a0c4d59384bad3e632233bcea2, type: 2}
 --- !u!4 &1182963502
 Transform:
   m_ObjectHideFlags: 0
