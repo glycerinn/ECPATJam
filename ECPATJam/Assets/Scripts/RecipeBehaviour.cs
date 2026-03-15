@@ -101,7 +101,10 @@ public class RecipeBehaviour : MonoBehaviour
         TutorialManager tutorial = FindAnyObjectByType<TutorialManager>();
 
         if (tutorial != null)
-            rightDish = true;
+        {
+            tutorial.ClickServe();
+            rightDish = servedDish == tutorial.expectedRecipe;
+        }
         else if (customerManager.currentOrder == null)
             rightDish = true;
         else if (servedDish == customerManager.currentOrder)

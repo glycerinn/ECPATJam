@@ -1,6 +1,8 @@
-﻿title: Intro
+﻿
+title: Intro
 position: 65,-136
 ---
+<<declare $correctDish = false>>
 Narrator: This is your first day outside the prison, that dingy little building that has been your ‘home’ for the last fifteen years. It is a strange sensation to see the sun without those tall concrete walls. 
 Narrator: A lot has changed in this town since you served your sentence. That old pizza place you used to visit was demolished, standing in its place is now some currency exchange service. 
 Narrator: Your community work is going to start soon. You don’t feel like you’re ready yet.
@@ -9,6 +11,7 @@ title: FirstStep
 position: -84,39
 ---
 <<declare $playerName = "Player">>
+
 Narrator: A woman maybe around her twenties to early thirties enters the room. She has a [i]nasty[/i] scar on her left eye.
 Officer: Mornin’, {$playerName}. I’m Officer Sarah Blakesley, your supervisor. 
 Narrator: You expected her to extend her hand to you, but instead they were kept perfectly positioned behind her back. 
@@ -22,16 +25,27 @@ Officer: (hint:  there’s a handy recipe book on the bo’om left side of the s
 Officer: Great, now you see over there on your right - that’s your ingredient shelf. ‘over on each ingredient to see their properties. 
 Officer: (hint again: Try dragging that [i]aromatic ginger[/i] and [i]rice[/i] into the pot.)
 <<show_stuff>>
+
+<<jump WaitForDishTiger>>
+===
+title: WaitForDishTiger
+---
 <<wait_for_pot_ingredients 2>>
 Officer: Blimey! I can smell it from over ‘ere. Now, ‘and me that.
 <<wait_for_serve>>
-Officer: Cheers mate. See that ain’t so ‘ard, innit? But not all folk will tell you what they need right from the start, you’ll need to listen to ‘em and decide for yourself. 
-Officer: If you ever make somethin’ rubbish, just chuck it in the bin, alright? It’s over there on your right.
-Officer: …
-Officer: Lucky, eh? Unlike that bloody cellmate of yours.
-Officer: Change of subject, by the way, tis’ recipe book is such a stub. Try experimentin’ with ‘em and see what you've made! Creatin’ somethin’ good, tis’ book will write ‘em selves in. Don’t even dare askin’ me how it even works.
-Officer: Now, do a good job and someday you’ll be free, perhaps. I’ll be back later to check up on your progress, you understand? 
--> Yes Ma’am.
-Narrator: The officer turned her back
-<<customer_leave>>
+<<if $correctDish>>
+    Officer: Cheers mate. See that ain’t so ‘ard, innit? But not all folk will tell you what they need right from the start, you’ll need to listen to ‘em and decide for yourself. 
+    Officer: If you ever make somethin’ rubbish, just chuck it in the bin, alright? It’s over there on your right.
+    Officer: …
+    Officer: Lucky, eh? Unlike that bloody cellmate of yours.
+    Officer: Change of subject, by the way, tis’ recipe book is such a stub. Try experimentin’ with ‘em and see what you've made! Creatin’ somethin’ good, tis’ book will write ‘em selves in. Don’t even dare askin’ me how it even works.
+    Officer: Now, do a good job and someday you’ll be free, perhaps. I’ll be back later to check up on your progress, you understand? 
+    -> Yes Ma’am.
+    Narrator: The officer turned her back
+    <<customer_leave>>
+<<else>>
+    Officer: Try again.
+    <<reset_pot>>
+    <<jump WaitForDishTiger>>
+<<endif>>
 ===

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683bdd59fd73678478622168862108ae, type: 3}
+  m_Name: Officer
+  m_EditorClassIdentifier: Assembly-CSharp::CustomerSO
+  customerName: Officer
+  sprite: {fileID: -14785817863168574, guid: 18e3617488a8584408897bf8975de411, type: 3}
+  order: {fileID: 11400000, guid: fdb4c6a0c4d59384bad3e632233bcea2, type: 2}
+  orderAmount: 1
+  yarnNode: Intro
