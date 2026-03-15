@@ -1,0 +1,1178 @@
+fileFormatVersion: 2
+guid: 42f87424d1692fd4e850b06303f5be4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3027094191700487847
+    second: TLATS_Title_0
+  - first:
+      213: -4112977892855220464
+    second: TLATS_Title_1
+  - first:
+      213: 9048455940442172879
+    second: TLATS_Title_2
+  - first:
+      213: 212173655460315684
+    second: TLATS_Title_3
+  - first:
+      213: -3472970502937498760
+    second: TLATS_Title_4
+  - first:
+      213: 1196882107275120098
+    second: TLATS_Title_5
+  - first:
+      213: 8515378748544865399
+    second: TLATS_Title_6
+  - first:
+      213: 7421708071811545291
+    second: TLATS_Title_7
+  - first:
+      213: 9082875722326667639
+    second: TLATS_Title_8
+  - first:
+      213: -6813137920356785841
+    second: TLATS_Title_9
+  - first:
+      213: 7741173631153579490
+    second: TLATS_Title_10
+  - first:
+      213: -3175714830972254535
+    second: TLATS_Title_11
+  - first:
+      213: -11628597728149238
+    second: TLATS_Title_12
+  - first:
+      213: 542987683772511333
+    second: TLATS_Title_13
+  - first:
+      213: -740531976101030579
+    second: TLATS_Title_14
+  - first:
+      213: -5511932162957086671
+    second: TLATS_Title_15
+  - first:
+      213: 2576977289527207309
+    second: TLATS_Title_16
+  - first:
+      213: 1656897450731997913
+    second: TLATS_Title_17
+  - first:
+      213: -615322533623936672
+    second: TLATS_Title_18
+  - first:
+      213: -3212403805172599946
+    second: TLATS_Title_19
+  - first:
+      213: 2585101918362532336
+    second: TLATS_Title_20
+  - first:
+      213: -788145077529872298
+    second: TLATS_Title_21
+  - first:
+      213: 8608526333040610131
+    second: TLATS_Title_22
+  - first:
+      213: -2284070949550867676
+    second: TLATS_Title_23
+  - first:
+      213: 4791362515370390893
+    second: TLATS_Title_24
+  - first:
+      213: 9185880845823916003
+    second: TLATS_Title_25
+  - first:
+      213: 7280610814797021002
+    second: TLATS_Title_26
+  - first:
+      213: 4193661894731071937
+    second: TLATS_Title_27
+  - first:
+      213: -2278024046738379034
+    second: TLATS_Title_28
+  - first:
+      213: 5705607162913148539
+    second: TLATS_Title_29
+  - first:
+      213: -2054994217073908700
+    second: TLATS_Title_30
+  - first:
+      213: -7853005072658422119
+    second: TLATS_Title_31
+  - first:
+      213: 1528182202839675799
+    second: TLATS_Title_32
+  - first:
+      213: -4880331531476603331
+    second: TLATS_Title_33
+  - first:
+      213: 9024311373408706592
+    second: TLATS_Title_34
+  - first:
+      213: 7671196165281840634
+    second: TLATS_Title_35
+  - first:
+      213: 8012091495938633092
+    second: TLATS_Title_36
+  - first:
+      213: 2132891085695847919
+    second: TLATS_Title_37
+  - first:
+      213: -6556222460083823705
+    second: TLATS_Title_38
+  - first:
+      213: -3588523691004418707
+    second: TLATS_Title_39
+  - first:
+      213: -3779785250960793402
+    second: TLATS_Title_40
+  - first:
+      213: -2420473567147506355
+    second: TLATS_Title_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TLATS_Title_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 1080
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9515b02fed99df5d0800000000000000
+      internalID: -3027094191700487847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 367
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4228864c0dac1f200800000000000000
+      internalID: 212173655460315684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 310
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b20096ab78dcfc0800000000000000
+      internalID: -3472970502937498760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed872a6fed2c9010800000000000000
+      internalID: 1196882107275120098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 310
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7745deafad3bc2670800000000000000
+      internalID: 8515378748544865399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 310
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8f9fe5b243ff660800000000000000
+      internalID: 7421708071811545291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 309
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771fc48a85bdc0e70800000000000000
+      internalID: 9082875722326667639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 309
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41e363b82fd271a0800000000000000
+      internalID: -6813137920356785841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 310
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a78d276c2e6b60800000000000000
+      internalID: 7741173631153579490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 309
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b685f7df289de3d0800000000000000
+      internalID: -3175714830972254535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_12
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a018d2b1adfa6dff0800000000000000
+      internalID: -11628597728149238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_13
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 310
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5643ca8eb64198700800000000000000
+      internalID: 542987683772511333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_14
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d451eab571a19b5f0800000000000000
+      internalID: -740531976101030579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 310
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13074e8b6eea183b0800000000000000
+      internalID: -5511932162957086671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 309
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85a480013343c320800000000000000
+      internalID: 2576977289527207309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 309
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da812ce37b7ef610800000000000000
+      internalID: 1656897450731997913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 309
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0694d017a6fe577f0800000000000000
+      internalID: -615322533623936672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_19
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 310
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673f29d52cf3b63d0800000000000000
+      internalID: -3212403805172599946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 309
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9fd209f7020e320800000000000000
+      internalID: 2585101918362532336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 310
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fb5e4a32ff05f0800000000000000
+      internalID: -788145077529872298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 309
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b4b780711a77770800000000000000
+      internalID: 8608526333040610131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_23
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 309
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b3b3aa2995d40e0800000000000000
+      internalID: -2284070949550867676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_24
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 309
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6536ce62d65e7240800000000000000
+      internalID: 4791362515370390893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_25
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 309
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7366cd5fdca7f70800000000000000
+      internalID: 9185880845823916003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 310
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff7d336fce90560800000000000000
+      internalID: 7280610814797021002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_27
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 310
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c189873641e23a30800000000000000
+      internalID: 4193661894731071937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 310
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee6c50f235d260e0800000000000000
+      internalID: -2278024046738379034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_29
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 310
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ecc5d2c736e2f40800000000000000
+      internalID: 5705607162913148539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_30
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 299
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424e3dbb5a13b73e0800000000000000
+      internalID: -2054994217073908700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_31
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 309
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996aad05e75840390800000000000000
+      internalID: -7853005072658422119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_32
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 310
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7933558ed91353510800000000000000
+      internalID: 1528182202839675799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_33
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 299
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ee2384454954cb0800000000000000
+      internalID: -4880331531476603331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_34
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 310
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0202b8a916bcc3d70800000000000000
+      internalID: 9024311373408706592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 310
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd76f1c440957a60800000000000000
+      internalID: 7671196165281840634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_36
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 309
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da95304caa03f60800000000000000
+      internalID: 8012091495938633092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_37
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 310
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed8f73542d899d10800000000000000
+      internalID: 2132891085695847919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_38
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 309
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab144ea86e9305a0800000000000000
+      internalID: -6556222460083823705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_39
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 309
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65ab9147b0033ec0800000000000000
+      internalID: -3588523691004418707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_40
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 309
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0a83527518b8bc0800000000000000
+      internalID: -3779785250960793402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_Title_41
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 309
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4543f96d10c86ed0800000000000000
+      internalID: -2420473567147506355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f37b4ff5729005c4f9a2e687a231e8fa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TLATS_Title_0: -3027094191700487847
+      TLATS_Title_1: -4112977892855220464
+      TLATS_Title_10: 7741173631153579490
+      TLATS_Title_11: -3175714830972254535
+      TLATS_Title_12: -11628597728149238
+      TLATS_Title_13: 542987683772511333
+      TLATS_Title_14: -740531976101030579
+      TLATS_Title_15: -5511932162957086671
+      TLATS_Title_16: 2576977289527207309
+      TLATS_Title_17: 1656897450731997913
+      TLATS_Title_18: -615322533623936672
+      TLATS_Title_19: -3212403805172599946
+      TLATS_Title_2: 9048455940442172879
+      TLATS_Title_20: 2585101918362532336
+      TLATS_Title_21: -788145077529872298
+      TLATS_Title_22: 8608526333040610131
+      TLATS_Title_23: -2284070949550867676
+      TLATS_Title_24: 4791362515370390893
+      TLATS_Title_25: 9185880845823916003
+      TLATS_Title_26: 7280610814797021002
+      TLATS_Title_27: 4193661894731071937
+      TLATS_Title_28: -2278024046738379034
+      TLATS_Title_29: 5705607162913148539
+      TLATS_Title_3: 212173655460315684
+      TLATS_Title_30: -2054994217073908700
+      TLATS_Title_31: -7853005072658422119
+      TLATS_Title_32: 1528182202839675799
+      TLATS_Title_33: -4880331531476603331
+      TLATS_Title_34: 9024311373408706592
+      TLATS_Title_35: 7671196165281840634
+      TLATS_Title_36: 8012091495938633092
+      TLATS_Title_37: 2132891085695847919
+      TLATS_Title_38: -6556222460083823705
+      TLATS_Title_39: -3588523691004418707
+      TLATS_Title_4: -3472970502937498760
+      TLATS_Title_40: -3779785250960793402
+      TLATS_Title_41: -2420473567147506355
+      TLATS_Title_5: 1196882107275120098
+      TLATS_Title_6: 8515378748544865399
+      TLATS_Title_7: 7421708071811545291
+      TLATS_Title_8: 9082875722326667639
+      TLATS_Title_9: -6813137920356785841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

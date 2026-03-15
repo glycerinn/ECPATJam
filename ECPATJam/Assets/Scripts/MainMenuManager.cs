@@ -37,17 +37,6 @@ public class MainMenuManager : MonoBehaviour
         audioManager.playButtonSFX();
     }
 
-    public void CreditsShow()
-    {   
-        audioManager.playButtonSFX();
-        // Credits.SetActive(true);
-    }
-    
-    public void CreditsUnShow()
-    {
-        audioManager.playButtonSFX();
-        // Credits.SetActive(false);
-    }
 
     public void QuitGame()
     {

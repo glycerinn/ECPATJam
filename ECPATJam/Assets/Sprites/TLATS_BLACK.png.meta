@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 9b05ff7f0d2bce74fa2966eff4aec474
+guid: 0a183775212635d4ba3db5c849c9c87d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8847511328382704733
-    second: Shelf_0
+      213: -8348369064164472578
+    second: TLATS_BLACK_0
+  - first:
+      213: 6201506982711100376
+    second: TLATS_BLACK_1
+  - first:
+      213: 1858284355132040890
+    second: TLATS_BLACK_2
+  - first:
+      213: -8846901879258684843
+    second: TLATS_BLACK_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shelf_0
+      name: TLATS_BLACK_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 514
-        width: 3840
-        height: 1986
+        x: 20
+        y: 331
+        width: 826
+        height: 418
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a3218da253573580800000000000000
-      internalID: -8847511328382704733
+      spriteID: ef8cd945192a42c80800000000000000
+      internalID: -8348369064164472578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_BLACK_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 350
+        width: 148
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d389986ebd201650800000000000000
+      internalID: 6201506982711100376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_BLACK_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 335
+        width: 154
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6af4f76c3f9c910800000000000000
+      internalID: 1858284355132040890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TLATS_BLACK_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 338
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552ec0c1d9d793580800000000000000
+      internalID: -8846901879258684843
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f0d0b97fc9a7b694aa3902dc66943701
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shelf_0: -8847511328382704733
+      TLATS_BLACK_0: -8348369064164472578
+      TLATS_BLACK_1: 6201506982711100376
+      TLATS_BLACK_2: 1858284355132040890
+      TLATS_BLACK_3: -8846901879258684843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
