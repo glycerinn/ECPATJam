@@ -5,45 +5,64 @@ public class PauseMenu : MonoBehaviour
 {
     private int currentSceneIndex;
     public LevelLoader levelLoader;
-
+    public GameObject pauseMenuUI;
     public static bool GameisPaused = false;
-        public GameObject pauseMenuUI;
-       
-        void Update()
+    private AudioManager audioManager;
+    
+    public void Awake()
+    {
+        GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
+
+        if (audioObj != null)
         {
-            if (Input.GetKeyDown(KeyCode.P))
+            audioManager = audioObj.GetComponent<AudioManager>();
+            Debug.Log("found");
+        }
+        else
+        {
+            Debug.LogError("AudioManager not found in scene!");
+        }
+            
+    } 
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (GameisPaused)
             {
-                if (GameisPaused)
-                {
-                    Resume();
-                }
-                else
-                {
-                    // AudioManager.instance.PausedSound();
-                    Pause();
-                }
+                Resume();
+            }
+            else
+            {
+                // AudioManager.instance.PausedSound();
+                Pause();
             }
         }
+    }
 
-        public void Resume()
-        {
-            pauseMenuUI.SetActive(false);
-            Time.timeScale = 1f;
-            GameisPaused = false;
-        }
+    public void Resume()
+    {
+        audioManager.playButtonSFX();
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameisPaused = false;
+    }
 
-        public void Pause()
-        {
-            pauseMenuUI.SetActive(true);
-            Time.timeScale = 0f;
-            GameisPaused = true;
-        }
+    public void Pause()
+    {
+        audioManager.playButtonSFX();
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameisPaused = true;
+    }
 
-        public void LoadMenu()
-        {
-            currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
-            Time.timeScale = 1f;
-            StartCoroutine(levelLoader.PlayBackTransition());
-        }
+    public void LoadMenu()
+    {
+        audioManager.playButtonSFX();
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
+        Time.timeScale = 1f;
+        StartCoroutine(levelLoader.PlayBackTransition());
+    }
 }
