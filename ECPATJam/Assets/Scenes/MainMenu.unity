@@ -1256,8 +1256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   BGM: {fileID: 1330711422}
   SFX: {fileID: 1038136925}
-  MainMenubg: {fileID: 0}
-  GameBg: {fileID: 0}
+  MainMenubg: {fileID: 8300000, guid: e756e5aabc24b1645b642419d78e232f, type: 3}
+  GameBg: {fileID: 8300000, guid: f8eb24e5a447f164ca7b993835a75f66, type: 3}
   Grab:
   - {fileID: 8300000, guid: 42c40ab1873879541ba39fa7210bac30, type: 3}
   - {fileID: 8300000, guid: 4d6f29849a374284abc6d35943bd1deb, type: 3}

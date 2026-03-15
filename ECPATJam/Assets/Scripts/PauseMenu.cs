@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public static bool GameisPaused = false;
     private AudioManager audioManager;
-    
+
     public void Awake()
     {
         GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
@@ -23,7 +23,12 @@ public class PauseMenu : MonoBehaviour
             Debug.LogError("AudioManager not found in scene!");
         }
             
-    } 
+    }
+
+    public void Start()
+    {
+        audioManager.playGameBGM();
+    }
 
     void Update()
     {
