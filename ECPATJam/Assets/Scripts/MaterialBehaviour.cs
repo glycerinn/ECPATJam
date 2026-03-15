@@ -1,5 +1,4 @@
 using System;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +9,7 @@ public class MaterialBehaviour : MonoBehaviour
     [SerializeField] MaterialSO materialSO;
     [SerializeField] bool HasBeenClicked;
     private Vector3 StartPos;
+    bool isDragging = false;
 
     void Awake()
     {
@@ -28,24 +28,31 @@ public class MaterialBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if(HasBeenClicked == false)
+        if (isDragging)
         {
             rb.gravityScale = 0;
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-            transform.eulerAngles = Vector3.zero;
-        }
-        else if(HasBeenClicked == true)
-        {
-            rb.gravityScale = 1;
+
+            transform.position = GetMousePos();
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                isDragging = false;
+                rb.gravityScale = 1;
+            }
         }
 
         if(transform.position.y <= -6)
         {
-            transform.position = StartPos;
-            HasBeenClicked = false;
+            Destroy(gameObject);
         }
+    }
+
+    public void StartDragging()
+    {
+        isDragging = true;
+        HasBeenClicked = true;
     }
 
     Vector3 GetMousePos()
@@ -66,15 +73,9 @@ public class MaterialBehaviour : MonoBehaviour
         return materialSO;
     }
 
-    public void ResetPosition()
+        public void SetMaterial(MaterialSO newMaterial)
     {
-        transform.position = StartPos;
-        HasBeenClicked = false;
-
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
-        rb.gravityScale = 0;
-
-        gameObject.SetActive(true);
+        materialSO = newMaterial;
+        spriteRenderer.sprite = materialSO.MaterialSprite;
     }
 }

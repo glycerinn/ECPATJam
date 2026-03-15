@@ -17,4 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 925ca98016db09f44979a2fa6723f48e, type: 2}
   - {fileID: 11400000, guid: ac022b9cbc865d8408d69ceb48a9bbc4, type: 2}
   RecipeSprite: {fileID: 3997752422451381191, guid: 5f3035357cd035245900d3bf6dd0c368, type: 3}
-  description: 
+  description: An Immunity Booster

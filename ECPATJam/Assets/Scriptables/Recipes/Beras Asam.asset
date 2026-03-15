@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 17ee6985ef3654047827f542dd8729a4, type: 2}
   - {fileID: 11400000, guid: 47785ca2a61982445b86919a916ee5b5, type: 2}
   RecipeSprite: {fileID: 2097269751637882782, guid: 7a09fc2d2da2c744faf33e7649600c84, type: 3}
+  description: An Appetite Stimulator

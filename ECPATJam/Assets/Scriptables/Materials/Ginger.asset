@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Ginger
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: Ginger
-  MaterialStartPos: {x: 4.77, y: -0.67999995, z: 0}
+  MaterialStartPos: {x: 4.77, y: -0.6, z: 0}
   MaterialSprite: {fileID: -5165143361128496071, guid: 1f4abe4b833a7664ab2796c38462c9e8, type: 3}

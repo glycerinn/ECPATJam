@@ -119,10 +119,10 @@ TextureImporter:
       name: Doggirl_Default_1
       rect:
         serializedVersion: 2
-        x: 239
+        x: 368
         y: 0
-        width: 959
-        height: 1467
+        width: 976
+        height: 1574
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

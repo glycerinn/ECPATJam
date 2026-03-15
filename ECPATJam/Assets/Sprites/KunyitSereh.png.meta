@@ -116,12 +116,12 @@ TextureImporter:
       name: KunyitSereh_0
       rect:
         serializedVersion: 2
-        x: 310
-        y: 128
-        width: 427
-        height: 637
+        x: 82
+        y: 58
+        width: 328
+        height: 386
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4e4307fbfe827594c90a7fc1d6c8fc0b
     internalID: 0
     vertices: []
     indices: 

@@ -11,7 +11,7 @@ DIAGITTNPG:  h e l l o .
 -> I-I’m sorry, so sorry..
 DIAGITTNPG:  . . . ?
 -> I-I mean.. C-congratulation? Y-you’re our first customer, which means you got one free nasi kunyit.. promo?
-DIAGITTNPG:  o h ,  i  s e e  h o w  i t  i s .  i ‘ m  a f r a i d  t h a t  i s  n o t  w h a t  i  w a n t . .  [ confict name ] .
+DIAGITTNPG:  o h ,  i  s e e  h o w  i t  i s .  i ‘ m  a f r a i d  t h a t  i s  n o t  w h a t  i  w a n t . .  {$playerName} .
 -> …
     -> Please.. what do you want from me..?
 DIAGITTNPG:  i  w a n t  y o u . . . 
@@ -54,12 +54,21 @@ OW: My coworker had a stressful day, she got rejected by her crush.
 -> Ouch.
 OW: I want to help her to feel better.
 -> Then let me help your colleague with that. Please wait for a while.
+<<jump WaitForDishTiger>>
+===
+title: WaitForDishTiger
+---
 <<wait_for_order>>
--> Here you go.
-OW: Thank you, here’s your changes. She will appreciate this.
-OW: …
-OW: She’s been kind to me before, so I wanted to pay her back.
-<<customer_leave>>
+<<if $correctDish>>
+    -> Here you go.
+    OW: Thank you, here’s your changes. She will appreciate this.
+    OW: …
+    OW: She’s been kind to me before, so I wanted to pay her back.
+    <<customer_leave>>
+<<else>>
+    OW: This isn't what I requested.
+    <<jump WaitForDishTiger>>
+<<endif>>
 ===
 title: Charlotte
 ---

@@ -116,12 +116,12 @@ TextureImporter:
       name: Beras Asam_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 5
+        x: 108
+        y: 35
         width: 249
-        height: 391
+        height: 409
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Beras Asam_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 380
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e308a05c5fcbe4cb5bfade5e81869a
+      internalID: 190147262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 504c72fcb0213774383956190208eedb
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +171,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Beras Asam_0: 2097269751637882782
+      Beras Asam_1: 190147262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

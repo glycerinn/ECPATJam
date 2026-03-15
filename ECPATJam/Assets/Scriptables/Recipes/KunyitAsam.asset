@@ -17,4 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f7daa1094e18dad4196fec5f777a3b2b, type: 2}
   - {fileID: 11400000, guid: 47785ca2a61982445b86919a916ee5b5, type: 2}
   RecipeSprite: {fileID: -8009074456309236020, guid: 2e64693228706f24784de40aa957b467, type: 3}
-  description: 
+  description: A Digestive Issue Reliefer

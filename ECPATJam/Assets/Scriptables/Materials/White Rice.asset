@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: White Rice
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: White Rice
-  MaterialStartPos: {x: 6.77, y: 1.32, z: 0}
+  MaterialStartPos: {x: 6.99, y: 1.28, z: 0}
   MaterialSprite: {fileID: -3920639796141291900, guid: c0c6db93ae5c4494eb0f4f8ed64b03ff, type: 3}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Foreigner
   m_EditorClassIdentifier: Assembly-CSharp::CustomerSO
   customerName: Foreigner
-  sprite: {fileID: 2825752389065260255, guid: 5fed0d545adf04b458c4ce4c1a83d17f, type: 3}
+  sprite: {fileID: -2180476221111591616, guid: 3c3612d9a13b3e94b8dcf490631e5ec7, type: 3}
   order: {fileID: 11400000, guid: baa21989f89e3f14ab3c462f2edd3be0, type: 2}
+  orderAmount: 1
   yarnNode: Foreigner
