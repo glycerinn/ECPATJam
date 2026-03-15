@@ -65,6 +65,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         audioManager.playButtonSFX();
+        audioManager.StopBGM();
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
         Time.timeScale = 1f;

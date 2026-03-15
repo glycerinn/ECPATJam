@@ -61,6 +61,11 @@ public class AudioManager : MonoBehaviour
         Debug.Log("click");
     }
 
+    public void StopBGM()
+    {
+        BGM.Stop();
+    }
+
     public void PausedSound()
     {
         isPaused = true;
