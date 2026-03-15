@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Mauve
   m_EditorClassIdentifier: Assembly-CSharp::CustomerSO
   customerName: Mauve
-  sprite: {fileID: -4911687424683190567, guid: 4e09cf6c45cf7ad4aa5ec7d3c38a7c15, type: 3}
+  sprite: {fileID: -179364604974303484, guid: 95d575b20dba5d34481e31e606d2cf33, type: 3}
   order: {fileID: 0}
+  orderAmount: 1
   yarnNode: BestFriend

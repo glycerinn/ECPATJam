@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9de9bff12469c5542a73253e005852b2
+guid: 0b44434e8ab68f14fb3431c6b8b85991
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6176264708628463375
-    second: Cinnamon_0
+      213: 8016177723794220125
+    second: Mauve_Angry_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cinnamon_0
+      name: Mauve_Angry_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 137
-        width: 344
-        height: 212
+        x: 183
+        y: 0
+        width: 1082
+        height: 1676
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f04b6388ff794aa0800000000000000
-      internalID: -6176264708628463375
+      spriteID: d5467231b2f2f3f60800000000000000
+      internalID: 8016177723794220125
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 83e310530e7784740b113b614b4b9622
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cinnamon_0: -6176264708628463375
+      Mauve_Angry_0: 8016177723794220125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
