@@ -15,6 +15,24 @@ public class RecipeBehaviour : MonoBehaviour
 
     List<RecipeSO> cookedDishes = new List<RecipeSO>();
 
+    private AudioManager audioManager;
+    
+    public void Awake()
+    {
+        GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
+
+        if (audioObj != null)
+        {
+            audioManager = audioObj.GetComponent<AudioManager>();
+            Debug.Log("found");
+        }
+        else
+        {
+            Debug.LogError("AudioManager not found in scene!");
+        }
+            
+    } 
+
     void Start()
     {
         
@@ -56,6 +74,7 @@ public class RecipeBehaviour : MonoBehaviour
 
     public void TrashLatestDish()
     {
+        audioManager.playButtonSFX();
         if (cookedDishes.Count == 0)
         {
             Debug.Log("No dishes to trash");
@@ -70,6 +89,7 @@ public class RecipeBehaviour : MonoBehaviour
 
     public void ServeDish()
     {
+        audioManager.playButtonSFX();
         if (cookedDishes.Count == 0)
             return;
 

@@ -5,9 +5,27 @@ public class MaterialSpawner : MonoBehaviour
     public GameObject materialPrefab;
     public MaterialSO materialData;
     public Transform spawnPoint;
+    private AudioManager audioManager;
+    
+    public void Awake()
+    {
+        GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
+
+        if (audioObj != null)
+        {
+            audioManager = audioObj.GetComponent<AudioManager>();
+            Debug.Log("found");
+        }
+        else
+        {
+            Debug.LogError("AudioManager not found in scene!");
+        }
+            
+    } 
 
     void OnMouseDown()
     {
+        audioManager.playGrab();
         SpawnMaterial();
     }
 

@@ -8,6 +8,23 @@ public class PotBehaviour : MonoBehaviour
     public List<MaterialBehaviour> materialsInPot = new List<MaterialBehaviour>();
     public RecipeBook recipeBook;
     public RecipeBehaviour recipeBehaviour;
+    private AudioManager audioManager;
+    
+    public void Awake()
+    {
+        GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
+
+        if (audioObj != null)
+        {
+            audioManager = audioObj.GetComponent<AudioManager>();
+            Debug.Log("found");
+        }
+        else
+        {
+            Debug.LogError("AudioManager not found in scene!");
+        }
+            
+    } 
 
     public void AddMaterial(MaterialBehaviour material)
     {
@@ -18,6 +35,7 @@ public class PotBehaviour : MonoBehaviour
 
     public void CookMaterial()
     {
+        audioManager.playButtonSFX();
         RecipeSO recipe = recipeBook.CheckMaterials(materials);
 
         recipeBehaviour.ShowDish(recipe);
@@ -33,6 +51,7 @@ public class PotBehaviour : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        audioManager.playHitPot();
         MaterialBehaviour material = collision.GetComponent<MaterialBehaviour>();
 
         if(material != null)
