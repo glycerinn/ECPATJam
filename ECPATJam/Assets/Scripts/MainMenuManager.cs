@@ -6,42 +6,57 @@ public class MainMenuManager : MonoBehaviour
 {
     // public GameObject Credits;
     public LevelLoader levelLoader;
-    // private AudioManager audioManager;
+    private AudioManager audioManager;
     private int sceneToContinue;
-
 
     public void Awake()
     {
-        // audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        GameObject audioObj = GameObject.FindGameObjectWithTag("AudioManager");
+
+        if (audioObj != null)
+        {
+            audioManager = audioObj.GetComponent<AudioManager>();
+            Debug.Log("found");
+        }
+        else
+        {
+            Debug.LogError("AudioManager not found in scene!");
+        }
+            
     } 
 
     public void Start()
     {
-        // AudioManager.instance.playLobbyBGM();
+        AudioManager.instance.playMainMenuBGM();
         Time.timeScale = 1f;
     }
 
     public void PlayGame()
     {
         StartCoroutine(levelLoader.PlayTutorialTransition());
-        // audioManager.playButtonSFX();
+        audioManager.playButtonSFX();
     }
 
     public void CreditsShow()
     {   
-        // audioManager.playButtonSFX();
+        audioManager.playButtonSFX();
         // Credits.SetActive(true);
     }
     
     public void CreditsUnShow()
     {
-        // audioManager.playButtonSFX();
+        audioManager.playButtonSFX();
         // Credits.SetActive(false);
     }
 
     public void QuitGame()
     {
-        // audioManager.playButtonSFX();
+        if(audioManager != null)
+        {
+            audioManager.playButtonSFX();
+            Debug.Log("click2");
+        }
+        
         Application.Quit();
     }
 

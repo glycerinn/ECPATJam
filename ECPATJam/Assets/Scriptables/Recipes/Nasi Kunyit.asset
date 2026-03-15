@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f7daa1094e18dad4196fec5f777a3b2b, type: 2}
   - {fileID: 11400000, guid: 17ee6985ef3654047827f542dd8729a4, type: 2}
   RecipeSprite: {fileID: -8450981216417541926, guid: 6ef535fbedb18de4caea5c5e3abc0e54, type: 3}
+  description: An Immunity System Strengthener

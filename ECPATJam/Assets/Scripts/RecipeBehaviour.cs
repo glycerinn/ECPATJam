@@ -54,6 +54,20 @@ public class RecipeBehaviour : MonoBehaviour
         CreateDishSprite(recipeSO);
     }
 
+    public void TrashLatestDish()
+    {
+        if (cookedDishes.Count == 0)
+        {
+            Debug.Log("No dishes to trash");
+            return;
+        }
+
+        cookedDishes.RemoveAt(cookedDishes.Count - 1);
+
+        RemoveTopDishSprite();
+        UpdateDishDisplay();
+    }
+
     public void ServeDish()
     {
         if (cookedDishes.Count == 0)

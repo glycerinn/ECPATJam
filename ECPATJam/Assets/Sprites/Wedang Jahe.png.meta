@@ -116,12 +116,12 @@ TextureImporter:
       name: Wedang Jahe_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 26
-        width: 329
-        height: 314
+        x: 95
+        y: 79
+        width: 359
+        height: 383
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e90535f1fe139f45aa4a67c8808b498
     internalID: 0
     vertices: []
     indices: 

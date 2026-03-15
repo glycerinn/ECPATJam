@@ -25,7 +25,7 @@ public class TutorialPot : MonoBehaviour
 
         foreach(MaterialBehaviour materialBehaviour in materialsInPot)
         {
-            materialBehaviour.ResetPosition();
+            Destroy(materialBehaviour.gameObject);
         }
 
         materials.Clear();

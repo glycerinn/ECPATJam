@@ -17,4 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1fef5df717bdc0346ba503aac4425400, type: 2}
   - {fileID: 11400000, guid: 925ca98016db09f44979a2fa6723f48e, type: 2}
   RecipeSprite: {fileID: -3800119603498562759, guid: 71cb8b273b7603c4cbeb0b247bf03eb2, type: 3}
-  description: 
+  description: A Stress Reliefer

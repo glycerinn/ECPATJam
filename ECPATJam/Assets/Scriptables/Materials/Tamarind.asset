@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Tamarind
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: Tamarind
-  MaterialStartPos: {x: 4.77, y: 1.32, z: 0}
+  MaterialStartPos: {x: 4.77, y: 1.19, z: 0}
   MaterialSprite: {fileID: 5917609095931786909, guid: 0bfc18b1bd7d6c3408a57f38f40492d3, type: 3}

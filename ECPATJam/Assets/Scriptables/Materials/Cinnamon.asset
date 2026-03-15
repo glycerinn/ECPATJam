@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cinnamon
   m_EditorClassIdentifier: Assembly-CSharp::MaterialSO
   name: Cinnamon
-  MaterialStartPos: {x: 2.77, y: 1.32, z: 0}
+  MaterialStartPos: {x: 2.77, y: 1.11, z: 0}
   MaterialSprite: {fileID: -6176264708628463375, guid: 9de9bff12469c5542a73253e005852b2, type: 3}

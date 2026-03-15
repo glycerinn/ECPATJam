@@ -116,12 +116,12 @@ TextureImporter:
       name: Beras Kencur_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 1
-        width: 228
-        height: 236
+        x: 36
+        y: 57
+        width: 429
+        height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b3650f4f259b0eb4490982ed1eed7cf8
     internalID: 0
     vertices: []
     indices: 

@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 17ee6985ef3654047827f542dd8729a4, type: 2}
   - {fileID: 11400000, guid: ac022b9cbc865d8408d69ceb48a9bbc4, type: 2}
   RecipeSprite: {fileID: 805300245920924730, guid: f242a600af6e0634d957b83dfb115b2c, type: 3}
+  description: An Energy Restoration Beverage
