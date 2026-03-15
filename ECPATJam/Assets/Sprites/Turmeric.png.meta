@@ -116,12 +116,12 @@ TextureImporter:
       name: Turmeric_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 18
-        width: 366
-        height: 253
+        x: 92
+        y: 81
+        width: 320
+        height: 358
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a96c135be5ad0294896149825c36df83
     internalID: 0
     vertices: []
     indices: 
